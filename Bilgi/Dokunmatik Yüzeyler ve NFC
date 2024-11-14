@@ -1,0 +1,6 @@
+Tarih: 08.08.2024
+DevCom Hap Bilgi: Dokunmatik yüzeyler ve NFC.
+
++Dokunmatik yüzeyde bir *elektriksel alan* oluşturulur ve dokunma anında elimizden gelen elektronlar ile bu alan bozularak ilgili koordinatlar tespit edilir. Bundan dolayı eldiven vb. ile dokunduğunuzda bu yüzeyler çalışmaz.
+
++NFC (Near Field Communication) 13.56 MHz frekansında çalışan ve genellikle 4 cm veya daha kısa mesafelerde etkili olan, *radyo dalgalarının* kullanıldığı bir veri iletim aracıdır. Bir veya karşılıklı iki cihazın enerji sağladığı pasif ve aktif modlara sahiptir.
