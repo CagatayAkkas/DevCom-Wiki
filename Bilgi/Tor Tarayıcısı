@@ -1,0 +1,19 @@
+DevCom Bilgi: Tor Tarayıcısı.
+
+Nedir:
+İnternet kullanırken *mahremiyetinizi* korumayı hedefleyen, *açık* kaynak bir tarayıcıdır.
+
+Ne İşe Yarar:
++ Sitelerin *parmak izinizi* almasını engeller. Parmak izi: tarayıcı, font ayarlarınız gibi özelleştirmeleri de içeren size ait bilgilerdir. Bu genel değil size özeldir. Yüz binler arasından bu iz ile tespit edilebilirsiniz.
++Takip edilmenizi engeller.
+
+VPN’den Farkı: VPN kullandığınızda verileriniz hizmeti veren şirket tarafından *görülebilir*. Tor’da ise verileriniz her katmanda ayrı ayrı şifrelenir ve katmanlar sizin verilerinize sahip değildir. VPN, Tor’dan daha hızlıdır.
+
+Nasıl Çalışır:
++ Kullanıcıya 3 *katman* ayarlar. İlk katman daha uzun, iki ve üçüncü katman daha sık aralıklarla yenilenir. İstenildiği takdirde sistemden yeni bir tarayıcı da temin edilebilir. Bu katmanlar rastgele belirlenir. Katmanlara giden verileriniz *şifrelenir* ve hiçbir katmana verilerinizin tamamı gitmez.
++ Her kullanıcı sisteme dahil olup kendi bilgisayarında bir katman oluşturabilir.
++Amerika’daki dava dosyalarına baktığımızda daha 3 katmanı da kendi sistemine denk getirip bir kişiyi yakalama hadisesi olmamış.
+
+Nasıl Kullanabiliriz: *Brave* tarayıcısına gömülü olarak mevcuttur. İndirip gizli sekmenin altındaki “Tor ile yeni pencere aç” seçeneği ile sistemi kullanabilirsiniz =)
+
+Detaylar: https://www.kaspersky.com/resource-center/definitions/what-is-the-tor-browser
