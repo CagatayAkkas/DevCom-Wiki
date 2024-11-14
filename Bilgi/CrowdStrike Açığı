@@ -1,0 +1,40 @@
+DevCom Analiz: Dünyayı çökerten 0 lar (dün oldu).
+
+Etkileri Neler:
++Dünya genelinde uçar seferleri aksadı.
++İnsanlar bankalardan paralarını çekemedi/transfer yapamadı.
++Hastaneler hastalara bakamaz hale geldi.
++Özetle bilgisayar kullanılan *her* alan bundan negatif etkilendi.
+
+Neden Oldu:
++Sıkıntı CrowdStrike siber güvenlik sağlayıcısının getirdiği güncellemedeki kod hatasından dolayı gerçekleşti.
++CrowdStrike kritik yol (critical path) üzerinde, *Kernel* (çekirdek) düzeyinde çalışan bir yazılımdı. Bu seviyedeki bir hata sistemi çökertmeye yeterlidir.
++Hataya sebep olan Falcon bir *EDR*(son nokta kontrolü ve cevabı xd) yazılımı.
++Boot-start olan bu yazılım daha işletim sistemi çalışmaya başlamadan önce ona çalış komutunu veren pakete dahil.
++Hatalı yüklenen 0 larla dolu dosyadan dolayı makine düzeyinde *no pointer reference* hatası gerçekleşti. r8 konumuna(dosya adı çok uzun tam lokasyon veremiyoruz) eklenen işaretçinin (pointerın) gösterdiği lokasyonda gerekli veri bulunamıyordu (null döndürdü). Bundan dolayı yükleme gerçekleşmedi.
+
+Nasıl Çözülüyor:
++Windows’u güvenli veya iyileşme (recovery) modunda çalıştırın.
++C:\Windows\System32\drivers\CrowdStrike konumuna gidin.
++C-00000291*.sys -> bu dosyayı silin.
++Bilgisayarı kapatıp normal olarak tekrar açın
+Kaynak: [1]
+
+Tehlikeli Nokta:
++Endpointler üzerinde gerçekleşecek bir hata tüm dünyada bir veri açığına sebep olabilirdi.
+
+İlginç Noktalalar:
++Hata bilgisayarı tam güncelleme tamamlanırken çökertiyor. En umutlu anınızda patlamak kötü bir his olsa gerek.
++Güncelleme, akşam vakti otomatik indirilmiş.
++İstanbul Havalimanı’nda çizik bile yok.
++IT çalışanlarına dünya kadar iş çıktı.
++Microsoft doğrudan bir hata yapmamış olsa da yine güven kaybetti.
++Linux istemediği kadar reklam yaptı.
++Tarihe tanıklık ettik.
+
+Alınması Gereken Dersler:
++Tüm dünyayı çökertmek için binary seviyesindeki bir 01 yetiyor.
++Güvenlik için dışarıdan bir kurum ile anlaşmak hayati tehlike.
++Bu yanlışlıkla olduysa *savaş* döneminde bile isteye yapılacak bir “güncellemeyi” hayal bile edemiyoruz =)
+
+[1]: https://www.varonis.com/blog/crowdstrike-blue-screen-recovery-steps
