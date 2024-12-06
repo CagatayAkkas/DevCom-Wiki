@@ -1,0 +1,231 @@
+Author: Çağatay Akkaş
+start: 04.02.2023 , end 11.02.2023
+
+
+      General
++)TypeScript compiled to JavaScript 
++)Browser cant execute 
++)For making compiler sure and telling this wont give null ever we put ! after it (in some conditions)
++)!!! For making javascript file from typescript use tsc filename.ts
++)For project start npm init
++)npm install --save-dev lite-server
++)Put this after test -> "start": "lite-server"
++)For starting porject and seeing it on browser in html type html and chose 5 and after that copy
+<script src="main.js" defer ></script> after title line 
+
+
+      Types
++)For giving specific types in parameter ar initializnig without value we write as -> num1: number 
++)For converting string to number we can put + before it -> +input1.value now this will return integer
++)types : number -> this works for both double and integers
++)string -> " and ' works as same 
++)boolean -> true , false 
++)object -> const person = {name: "cagatay" , age: 21};
++)we can specift object variables -> const person : {name : string ; age: number;} = {} -> this is not good practice
++)arrays -> we can directy define as array = ["selam"] ; or let array :string[];
++)tuples -> javascript does not have tuple , they are fixed length and type arrays (that doesnt mean all elements are same type but their types cant change later  
++)tuple type -> role: [number , string] normally in object we define array as role:[]string
++)!! We can push in tuples but it is normaly error
++)enums -> we generaly decleare names with upper letter enum Role {ADMIN , READ_ONLY , AUTHOR};
++)We can decleare elements inside enums with specific numbers enum Role {ADMIN =5};
++)any -> let number: any ; -> we generally dont want to use this 
++)union type -> input1: number | string 
++)typeof returns string 
++)literal types we are setting variable values result : "as-number" | "as-text" -> here result cant be anything other than these
++)type aliases -> we are defining types (also can be used for objects) : type Combinable9191 = number | string -> now we can assign other variables with this without typing number|string repedetely
++)splice() changes the contents of an array be removing or replacing it 
+
+      Functions
++)We can define return type with putting : string (exp) after defining parameters
++)For void types we can type : void after parameters and also not very used but not writing without return is also works as void 
++)Function type -> let name : Function ;
++)let name: () => number ; -> it means it takes no parameters return number 
++)We can put other functions as parameters inside functions
++)unknown is like any and better we cant assign it to other variables like userName = unknownTypeVariable
++)never type : it will never return anything
+
+      Compiler
++)Watch Mode -> tsc fileName.ts --w , for exiting ctrl + c
++)Watch mode : when we change and save it will automatically update browser
++)For compiling all files automatically -> tsc --init (only once) and now we can compile all TypeScript files with tsc command in terminal
++)We can combine this with watchmode 
++)For excluding some files in tsconfig.json "exclude":["finename.ts"] -> "*.dev.ts" this exclude any file end with dev.ts
++)For spesificy including in tsconfig.json -> "include":["filename.ts"]
++)in tsconfig uncommenting source maps will show ts files in browser so good for debuging
++)for organizing files uncomment "outDir" in tsconfig as : "./folderName", to store js files in this
++)"rootDir" uncomment and change this for setting source folder
++)Ts gives errors for potential nulls like buttons ect. put ! after ("button")
++)noEmitOnErrors if set true then it doest generate files if there is error ->  we generally uncomment and set this true
++)For debuging, after enableling source maps from tsconfig.json from run at top start debuging and after that select chrome and chane url localhost to 3000
++)const variables cannot be changed later 
++)var and let nearly same thing but only difference is with var only scope is functions and global , with let anywhere which has two {} is a new scope and that variable only be accessable inside these parantheses
++)Arrow functions -> const add = (a:number , b:number) => a+b; ! this will return a+b becuase it is the only expression inside functions if we have more we need to put {} and return inside it 
++)spread operator(...) let us get all elements in array / object -> storage.push(...arrayName);
++)Rest parameter : we can get as manny element we give and put them in array -> function name (...numbers : number[])
++)for getting elements inside another array we can do let [element1 , element2 , ...remainingElements] = nameArray;
+
+      Classes
++)Class property is a variable in class
++)In classes we dont need to type var or let 
++)For calling new class we use new classname() -> this will also call constructor 
++)with this we can access variables inside class 
++)with putting private we can make variables private 
++)and public is default but can be added 
++)shorthand initilization -> without declearing without value and initializing inside constructor 
+constructor(private id:string , public name :string ){}
++)readonly -> can be used only once when initilization , we cant change readonly variables
+      Inheritance
++)Ts does not support multiple inhertance 
++)class subClassName extends ParentClassName{}
++)when initializing constructor inside sub
+constructor (id:string){
+super();
+}
+we dont need to send everything to upper class constructor 
++)private cannot be accessed even from child
++)protected can be accessed from same and cild classes
++)getter and setters 
+get nameOfGetter(){ //we need to return something 
+return
+} -> we are executing getters as variables not functions 
++)for setter use set 
+set setterName(value:string){ -> we need to give parameter
+
+}
++)static methods cant be accessed from unstatic types 
++)static can accessed without making instances of class 
++)abstract classes 
+abstract funcName():void ; -> any return type
+abstract class classname{}
+!! all other classes must implement this abstract class
++)singleton and private constructors
++)private constructor -> we can only call this by static properties 
++)if we use this inside static method it will refer the class
++)singleton class -> we can only have one instance of them
++)interface -> we can add variable and methods but we cant initialize them 
+interface Person {
+ name:string;
+ age : number;
+ greet(phrase:string) void;
+}
+and for using variable:
+ let user1:Person;
+ for object 
+ user1={
+ name:"cato",
+ age:20,
+ greet(phrase:string){
+ console.log("hello world" + phrase);
+ }
+}
++)using interface inside classes 
+class Person implements nameOfInterface {} -> we can use multiple interfaces 
++)readonly means we can only set value once 
++)interfaces can extends other interfaces (even more than one)
++)interfaces can be also used for defining type of functions 
+interface addfc{
+(a:number,b:number):number;
+}
+!!+)putting optional property inside interface and classes 
+variableName? :string;
++)we can also add optional parameter inside constuctor
++)interfaces cant store arbitary types like union types 
+
+      Advanced types 
++)we can use in keyword to check 
++)instanceof is another key word for checking 
++)typecasting -> put <HTMLInputElement> or use as -> element as THMLInputElement
++)for overloading functions 
+function add (a:string , b : string):string;
+function add (a:number , b: number ) : number;
+!!!now it not delete bottom one it only gives a change to call this function with another way 
++)optional chaining -> user?.job?.title -> means if uset exist access job then if it exist go title 
++)nullish coalescing -> userInput ?? "DEFAULT" -> means if userInput is undefined or null go DEFAULT
+
+      Generics
++)Array<string |number> =[]; this is same name(without number) = string[]
++)promise : we are using it for asyncronous programming 
+new Promise(function(resolve, reject){
+// logic goes here ..
+});
++)keyof -> for linking objects and keys 
++)making generic class -> class name<T> {} 
++)!!! When we use generics and put there T for example when we call function with <string> all T will be string 
++)we can also use Readonly as generic type -> Readonly<string[]>
+
+      Decorators
++)they are experimental futures
++)for using it enable experimentalDecorators inside tsconfig.json file 
++)Decorators starts action even before elements used , but when javascript finds class definition
++)its just normal functions but we are using it as
+@functionName -> if we have parameters @functionname(x)
+class Person{}
++) in decorators we can put html elements and use them 
+@withTemplate("<h1> person object </h1>")
++)decorators started to use from bottom to top 
++)!!!HOWEVER if decorator we have constructor factory it top to bottom
++)for converting value to true or false value we are using !! 
+
+      Project Steps
++)package.json -> npm init 
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "description": "Cheat sheet for TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Cagatay Akkas",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "2.3"
+  }
+}
+
++)npm start
++)if we have error for not finding lite-server
+npm install lite-server@2.3 --save-dev
++)for starting watch mode -> tsc ./fileName.ts -w
+
+
+      Spliting code 
++)we have two options : Namespaces and import/exporting 
++)For using namespace, at the top of the file 
+namespace name{
+export interface name{} -> if we use export then we can use this namespace even in other files 
+}
++)for using importing 
+/// <reference path="pathOfInterfaces.ts" /> -> yes there are 3 / at start
++)for putting all namespace files in one js file uncomment outfile in tsconfig.json
+
+      ES Modules -> suggested import use
++)for using it -> in tsconfig.json change target to es6 or higher and module to es2015 or higher
+in file 
+import {name} from "file.ts";
++)also for usign es modules in html write type="module" as
+<script type = "module" src="fileName.js"></script>
++)for importing everything from file use 
+import * as name from "path";
+
+      Bundling with webpack 
++)for downloading webpack -> npm install --save--dev webpack webpack -cli webpack-dev-server typescript ts-loader
++)make webpack.config.js file 
++)
+      Using 3rd parth libraries
++)for using lodash
+npm i --save lodash
++)for using 3rd party
+npm install --save-dev @types/lodash -> this is for lodash but for other vanilla js libraries we can also use types and package name to use it in ts
+
+      For using other apis 
++)we will use axios -> npm install --save axios
++)import axios from "axios";
++)axios.get();
++)!!!if we get errors for type which ts doesnt know but we sure that it exist we can use : decleare var x : any ;
+

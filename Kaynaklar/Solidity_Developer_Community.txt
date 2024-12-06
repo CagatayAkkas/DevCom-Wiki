@@ -1,0 +1,50 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) Solidity gibi blockchain,Web3, NFT ve daha nice teknolojinin olmassa olmazı bir kodlama dilini öğrenmeye basladıgın için seni tebrik ederiz.
+Bu yolda sana yardımcı olmak için elimizden geleni yapacağız
+
+Öncelikle kendi içeriklerimizi öneriyoruz. 
+Yol haritası -> https://medium.com/gs-developer-community/solidity-roadmap-2023-f9c43c659452
+Solidity Temelleri Ders 1 -> https://www.youtube.com/watch?v=o2uP76aJDMg
+Solidity Temelleri Ders 2 -> https://www.youtube.com/watch?v=4IQiPA5DqUY
+
+
+ Öncelikle genel blockchain yol haritasını bilmek cok fayda sağlayacaktır.
+https://roadmap.sh/blockchain
+
+ Dersler sırasında anlamadığın noktalara bakman için cheatsheetler. Kendin de not tutmayı unutma! =)
+https://github.com/manojpramesh/solidity-cheatsheet#balance -> Topluluğun kabul ettiği içeriklerden
+https://resource.jsmasterypro.com/solidity-cheatsheet -> Basit anlatımlı ama geniş 
+https://docs.soliditylang.org/en/v0.8.15/cheatsheet.html -> En öncelikli tavsiyemiz olmasa da Solidity'nin kendi dokümantasyonundan bahsetmeden olmaz
+https://github.com/samnang/solidity-examples -> Solidiy temel kavramlar ve acıklamaları
+
+
+
+ Şu anda dünya üzerindeki en iyi solidity içerikleri bu üç video. Birini mutlaka bitirmen gerekiyor =)
+https://youtube.com/playlist?list=PL4Rj_WH6yLgWe7TxankiqkrkVKXIwOP42 -> Foundry (Bu video daha güncel)
+https://www.youtube.com/watch?v=gyMwXuJrbJQ -> JavaScript ile  
+https://www.youtube.com/watch?v=M576WGiDBdQ -> Python ile
+https://www.youtube.com/c/PatrickCollins -> Patrick'in (videodaki kişi) kişisel kanalı
+Not:JavaScript ve Python içeriklerine /icerik JavaScript ve /icerik Python komutlarını genel kanala yazarak erişebilirsin
+
+
+ Youtube kanal önerileri
+https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA -> Akıllı kontratlar
+https://www.youtube.com/channel/UCw2MiSbNK-a6J5OkegPaj-Q/featured -> Blockchain ve Web3
+https://www.youtube.com/channel/UCJbA7dA_YPbnef0vEBFuhKQ -> Solidity ile alakalı genel başlıklar ile ilgili küçük örnekler
+https://www.youtube.com/c/MoralisWeb3 -> Deployment ve networking 
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal
+https://www.youtube.com/channel/UC_HI2i2peo1A-STdG22GFsA/featured -> Çok kaliteli bölüm bölüm Solidity içerikleri
+
+
+ Bir kodlama dilini öğrenmenin yanında daima elindeki bilgiyi nerede, nasıl güncel olarak kullanabileceğini bilmen lazım.
+https://vitalik.ca/ ->Vitalin, Ethereum'u kodlayan, geliştiren ve teknik anlamdaki en önemli konuları dünyaya anons eden kişilerin başında gelir.
+https://blockchain.news/ -> Blockchain ile ilgili güncel haberleri alabileceğin bir kaynak.
+https://cointelegraph.com/tags/blockchain -^
+https://ethereum.org/tr/ -> Her konu ile ilgili Ethereum'un kendi kaynağından en iyi bilgiler
+
+
+ Teorik tamam bana pratik lazım dersen 
+https://devpost.com/c/blockchain -> Dunyanın her yerindeki blockchain ile alakalı hackathonlar seni bekliyor
+
+ Ben hazırım diyorsan artık iş ilanlarına bakma vakti.
+https://web3.career/ ->Web3 alanındaki iş tanımları ve tüm dünyanın çeşitli yerlerinden gelen iş teklifleri.

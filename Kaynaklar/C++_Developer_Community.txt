@@ -1,0 +1,32 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) C++ gibi öğrenildiği takdirde diğer tüm dilleri kolay kılacak , sorumluluğu mühendise bırakan ama karşılığında çoğu alanın kapılarını açan. Çok hızlı ve çok fonksiyonel bir dil.
+Bu nispeten zorlu süreçte C++ ın yaptığı gibi tüm sorumluluğu sana yüklemeyip yükü birlikte paylaşacağız =)
+
+
+ Öncelikle neyle karşılaşacağımızı görmek için bir yol haritamıza bakalım
+https://miro.com/app/board/o9J_lpap34Q=/ -> Tum yol haritası tek bir interaktif grafikte
+
+ Dersler sırasında anlamadığın noktalara bakman için cheatsheetler. Kendin de not tutmayı unutma! =)
+https://hackr.io/blog/cpp-cheat-sheet-pdf -> Tum temel konular kodlama ile acıklamaları
+
+
+ Video içerikleri
+https://www.youtube.com/watch?v=8jLOx1hD3_o -> Sıfırdan zirveye
+https://www.youtube.com/watch?v=-TkoO8Z07hI -> Tum temel konular detaylı anlatım
+https://www.youtube.com/watch?v=vLnPwxZdW4Y -> 4 saat tum genel konular
+
+
+ Yazılı kaynaklar
+https://www.w3schools.com/cpp/default.asp -> Adım adım tüm temel c++
+https://www.programiz.com/cpp-programming
+
+ Eğer bana biraz pratik lazım dersen
+https://www.programiz.com/cpp-programming/examples
+https://www.w3schools.com/cpp/cpp_examples.asp
+https://www.studymite.com/cpp/examples
+
+
+ Youtube kanal önerileri
+https://www.youtube.com/c/WebDevSimplified -> Kısa ve öğretici videolarla kendine yeni yetenekler kat
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal
+https://www.youtube.com/c/CalebTheVideoMaker2/featured ->Çoğu kodlama dilleri ile alakalı kaliteli içerikler

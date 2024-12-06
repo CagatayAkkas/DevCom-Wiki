@@ -1,0 +1,50 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) Bir frontend developer olmak için mutlaka bilmemiz gereken üç ana dil var: HTML,CSS ve JavaScript. Bazı kaynaklar ilk ikisini kodlama dili olarak saymasa da bu kavramlara hakim olmadan frontend biliyorum denemeyeceği de herkesin kabuludur.
+Her projenin olmazsa olmazı , yazılımcı ile kullanıcı arasındaki köprü olan Frontend dillerini öğrenmene yardımcı olmak için elimizden geleni yapacağız
+
+ Her zamanki gibi sürece önden kendimizi hazırlamak için yol haritamız
+https://roadmap.sh/frontend -> Sade ve anlaşılır
+https://frontendmasters.com/guides/learning-roadmap/ -> Detaylı ama daha kompleks
+
+
+ Dersler sırasında anlamadığın noktalara bakman için cheatsheetler. Kendin de not tutmayı unutma! =)
+https://zerotomastery.io/cheatsheets/javascript-cheatsheet-the-advanced-concepts/ ->JavaScript full cheatsheet
+https://overapi.com/css -> CSS için görsellik yazıdan daha önemli, İhtiyacın olacak kategorilerde görsel örnekler
+https://htmlcheatsheet.com/css/ ->CSS, interaftif görsellerle neler yapabileceğini gör
+https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet -> HTML, ihtiyacın olan konuları kısaca öğrenerek kod örneklerine bakabilmen için
+
+
+ Video içerikleri (Bazı kaynaklar benzer kalitede aynı konuları anlatsa da anlatımını beğendiğin eğitmeni seçmen için seçenek olarak sunuyoruz)
+https://www.youtube.com/watch?v=zJSY8tbf_ys -> HTML,CSS,JavaScript hepsinden yeterli seviyede tek videoda öğrenmek istersen
+https://www.youtube.com/watch?v=y745R3Lv9WI ->(Türkçe) 1 Videoda HTML, CSS, Flexbox, Responsive Tasarım [ Web Geliştirme Eğitimi ]
+https://www.youtube.com/watch?v=OXGznpKZ_sA -> çok detaylı CSS öğrenmek istiyorsan
+https://www.youtube.com/watch?v=1Rs2ND1ryYc -> yeterli düzeyde CSS öğrenmek için
+https://www.youtube.com/watch?v=G3e-cpL7ofc -> HTML/CSS yeterli düzeyde öğrenmek için
+https://www.youtube.com/watch?v=cyuzt1Dp8X8 -> (HTML/CSS) temel konular 5 saatte
+
+
+
+ Yazılı kaynaklar(W3School)
+https://www.w3schools.com/html/default.asp -> HTML     |
+https://www.w3schools.com/css/default.asp -> CSS       | -> Bu kaynakların tamamında adım adım dokümantasyonlar şeklinde hem öğrenebilir hem de örnek kodları çalıştırarak görsellerle kendini pekiştirebilirsin
+https://www.w3schools.com/js/default.asp -> JavaScript |
+
+
+ Eğer Pratik yapmak istersen 
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/ -> (JavaScript) Her konuda mini örnek sorularla kaçırdığın noktaları görebilirsin + Bitirirsen sertifikan seni bekliyor =)
+https://www.w3schools.com/html/html_examples.asp ->(HTML) istediğin konularda interaktif örneklerle pratik için
+https://www.w3schools.com/css/css_examples.asp  -> (CSS) -^
+
+
+ Youtube Kanal Önerileri
+https://www.youtube.com/c/WebDevSimplified -> Kısa ve öğretici videolarla kendine yeni yetenekler kat
+https://www.youtube.com/user/sadikturan41/videos ->(Türkçe) Gerek HTML/CSS gerekse de JavaScript ve diğer diller için hem full hem de bölüm bölüm olan içerikler
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal
+https://www.youtube.com/c/BroCodez -> Çoğu kodlama dili ile ilgili kısa ve kaliteli örnekler
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+Author: Çağatay Akkaş
+
+Git Commands:
+- Git is a distributed version control system.
+-Configure the global username in Git: git config --global user.name "Cagatay Akkas". Use quotes when the name includes spaces.
+-Configure the global email in Git: git config --global user.email xyz@gmail.com
+-Configure the global editor in Git: git config --global core.editor "code --wait"
+-Edit the global Git configuration: git config --global -e
+-Set core.autocrlf to true (for Windows): git config --global core.autocrlf true
+-Set core.autocrlf to input (for Mac): git config --global core.autocrlf input
+-Get help with Git configuration: git config --help (for lots of information) or git config -h (for some information).
+-Create a new directory: mkdir name
+-Change the directory: cd name
+-Initialize a Git repository: git init
+-Track files: git add
+-Move up one level in the directory: cd ../
+-Untrack a file: git rm --cached name.txt
+-Create and open the .gitignore file and ignore all txt files: Put *.txt in the .gitignore file (do not put it on the first line).
+-Track all files: `git add --all, git add .`, or git add -A
+-Commit changes: git commit -m "this is a commit"
+-See the differences: git diff
+-Unstage a file: git restore --staged fileName
+-Commit changes to all tracked files: git commit -a -m "updated text to free range =) "
+-Remove a file: git rm "namefile"
+-Check out a specific version of a file: git checkout HEAD fileName.txt
+-Rename a file: git mv "name1" "name2"
+-View the commit history: git log or git log --oneline (for a compact format).
+-Amend the last commit message: git commit -m "write something" --amend
+-View the commit history with changes: git log -p Use the arrow down key to navigate and "q" to quit.
+-Get help with the log command: git help log
+-Delete a commit: git reset 1105851
+-Perform an interactive rebase starting from the root commit: `git rebase -i --root
+-Create a new branch: git branch nameOfBranch
+-See all branches: git branch
+-Switch to a different branch: git switch branchName
+-Merge changes from one branch to another: git merge -m "merge message" branchName
+-Delete a branch: `git branch -d branchName`
+-Create a new branch and switch to it: git switch -c branchName
+-Resolve conflicts, edit the conflicting file and remove the unwanted parts.
+  
+Sending to Github:
+-Add a remote origin address: git remote add origin addressSpecificForYou
+-Add all files for commit: `git add .`
+-Rename the branch to main: git branch -M main
+-Push the changes to the main branch on GitHub: git push -u origin main
+-Push all branches: git push --all
+
+Pulling from Github:
+
+-Download all history for tracked files: git fetch
+-Merge the downloaded changes: git merge
+-Combine git fetch and git merge: git pull
+-Clone a repository: git clone address (this will copy the project to your PC).

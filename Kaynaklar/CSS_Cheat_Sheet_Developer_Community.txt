@@ -1,0 +1,107 @@
+Author: Çağatay Akkaş
+
+      Basics
++)Inline -> <body style="background-color:rgb(0,0,0);">
++)For adding internal css properties
+<style>
+    body {
+        //here we can change body to anything
+        background-color: black;
+    }
+</style>
+
++)External :make new css file and put like in internal 
++)then <link rel="stylesheet" href="fineName.css">
++)for giving unique id -> <p id="p1"> </p>
++)and in css file 
+#p1 {
+    color: yellow;
+}
++)we can make classes -> <p id="p1" class = "odd">
+    and in css file
+    .odd {
+    color: blue;
+}
+
+      Fonts
++)font-family: "consolas" , sans-serif; -> this is for if web browser not support one of them it will use another 
++)for getting fonts use google fonts and copy-paste link html expression 
++)font-syle: italic;
++)font-weight : bold;
++)text-decoration:red dotted underline;
++)font-size: 18px;
+
+   Borders
++)border-style:
++)border-width:
++)border-color:
++)border-radius:
++)padding:5px;
++)border-top-style:dotted; -> top can be bottom , left , right 
+
+      Background
++)background-color:
++)background: linear-gradient(to left ,skyblue,lightgreen);
++)background-repeat:no-repeat;
++)background-attachment:fixed;
++)Set image as background
+background-image: url("myBackground.jpg");-> we can also use external 
+background-position:center;
+background-size: cover;
+
+      Margins
++)They are spaces around elements
++)margin: 10px; // or we can say margin-left
++)!!Padding : space between content and border
++)we can say margin-left: 50%  // or auto
++)float : right ; -> put element left or right side of its container allow text and inline elements to wrap around it 
++)for canceling floating for some elements use clear: right /left or both 
+
+      Position
++)position: static
++)position : relative
+and after that 
+top : 150px
+left: 100px
++)position: absolute;
++)top:150px;
+  left:100px;
++)position:fixed -> even you move screen it always be there where you set
++)position:sticky -> when we pass it it will come with us while scrolling and when back it keep its first place 
+
+      Pseudo classes
++)a:link{color:yellow} -> now all hyperlinks will be yellow 
++)a:visited{color:grey} -> change color after clicking on it
++)a : active{color:yellow} -> when we put our mouse on it it will be yellow
++)button:hover{color:red} -> when we pass our mouse on button 
++)button:active{color:green} -> when we click on button 
++)li:nth-child(3){background-color: yellow} 3rd element will be yellow
++)we can put even or odd instead of 3 here 
++)we can also pass math formulas instead of 3 -> exp: 5n+2
+
+      Shadows
++)text-shadow: 0px 0px 0px grey; -> first number is for where shadow will fall right left , second is for up down , 3rd is for spread
++)box-shadow: 0px 0px 0px black ; -> same 
+
+      Icons
++)use font awesome copy paste some html code and chose your icon 
+
+      Transform
++)transform: translateX(50px)
++)transform: rotateX(180deg)
++)transform: scaleX(3)
++)transform: skewX(45deg)
++)transform: matrix(1,0,0,1,0,0); -> this combines lots of thing and do them in one line check for more xd
+
+      Animations
++)in class or elements
+animation: mySlide;
+animation-play-state: running;
+animation-delay: 0s;
+animation-iteration-count:infinite;
+animation-duration:5;
+animation: 3s linear 0s infinite running mySlide ;-> this is shortcut of lots of properties
++)@keyframes mySlide{from{margin-left: 100%} to{margin-left:0%} } -> this will go from left to right
++)opacity:0 
+
+

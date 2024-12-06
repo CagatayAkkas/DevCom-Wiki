@@ -1,0 +1,39 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) Kodlama dillerinin ana hatlarını görmen ve genel bir fikir sahibi olman için her dilin kullanım alanlarıyla ilgili kısa bilgileri derledik.
+
+ Solidity
+Seviye: Orta
+Populerlik: ?
+Solidity blockchain dünyasının en büyük ağlarından Ethereum ağının kullandığı kodlama dili. Akıllı kontratlar , NFTler, Dappler ve blockchainle alakalı neredeyse her konunun sırrı bu dili bilmekten geçiyor.
+ 
+ Python
+Seviye: Kolay
+Populerlik (2022): #2
+Python aktif kutuphaneleri ve yüksek popülerliği sayesinde her alanda kullanılabilen bir dil. Ancak özellikle makine öğrenmesi, yapay zeka , data analizi ve web development alanlarında yoğun olarak kullanılır.
+
+ Java
+Seviye: Orta düzey
+Populerlik (2022): #4
+Java özellikle android geliştiricilerinin kullandığı , big data , bulut uygulamaları , nesnelerin interneti , oyun geliştiriciliği ve arayüz oluşturmada kullanılır.
+
+ Javascript
+Seviye: Kolay
+Populerlik (2022) : #1
+JavaScript, dinamik ve interaktif web içerikleri(uygulama veya tarayıcı) için websitelerinin %97 sinde kullanılan ; ayrıca uygulama ve oyun geliştirme, server- kullanıcı bağlantılarını sağlama, makine öğrenmesi, yapay zeka ve birçok alanda kullanılır. 
+
+
+ HTML & CSS
+Seviye: Kolay
+Populerlik (2022) : #3
+Bir web sitesinin olmazsa olmazı bu iki dilden HTMl web sayfalarının fonksiyonel taraflarını (butonlar , linkler vs.) , CSS te sayfanın görsel tarafını kontrol eder. Bir frontend geliştiricisinin bilmek zorunda olduğu dillerdir.
+
+ C++
+Seviye: Orta-Zor
+Populerlik (2022) : #6
+Donanıma erişimi olması ve kontrolü diğer dillerdeki gibi otomatik sistemlerle değil direkt developera vermesi ile ön plana çıkan C++. Sistem uygulamalarında , real-time sistemlerde, nesnelerin interneti ,oyun geliştiriciliği , bulut uygulamaları başta olmak üzere çok geniş bir kullanım alanına sahiptir. Hızlı ve öğrenmesi nispeten daha zor bir dildir.
+
+ SQL
+Seviye: Kolay
+Populerlik (2022) : #5
+SQL, data setleri(big data değil) sahip olduğu fonksiyonlarla yönetmemizi sağlar.Her türlü web , mobil , masaüstü uygulamasında kullanılır .İstisnasız her şirketin ihtiyacı olan bir dildir.
+

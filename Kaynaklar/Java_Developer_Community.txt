@@ -1,0 +1,32 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) Java geleneksel sayılabilecek c/c++ gibi yarı object oriented dillerin aksine tam object oriented dır. Java öğrenmesi kolay bir dildir çoğu alanda kullanılabilir olmasıyla cok buyuk bir populerlik ve topluluğu bulunan Java yazılımcılar için mutlaka öğrenilmesi gereken diller arasındadır.
+Java öğrenme yolculuğunda sana destek olmak için elimizden geleni yapacağız.
+
+ Öncelikle her dilde olduğu gibi önce yol haritamıza bir bakalım
+https://roadmap.sh/java -> tek roadmap tüm java
+
+ Dersler sırasında anlamadığın noktalara bakman için cheatsheetler. Kendin de not tutmayı unutma! =)
+https://www.interviewbit.com/java-cheat-sheet/#learn-java -> tum konuları detaylı açıklamaları ile görmek için
+https://introcs.cs.princeton.edu/java/11cheatsheet/ -> temel kavramları görsellerle destekleyerek anlamak için
+
+
+ Video içerikleri 
+https://www.youtube.com/watch?v=xk4_1vDrzzo -> 12 saatte detaylı anlatım
+https://www.youtube.com/watch?v=A74TOX803D0 -> 4 saatte temel Java
+https://www.youtube.com/watch?v=eIrMbAQSU34 -> 2.5 saat en temel bilgiler 
+
+ Yazılı kaynaklar
+http://java.meritcampus.com/core-java-topics -> |
+https://www.programiz.com/java-programming   -> | her konu için açıklamalar , kod örnekleri ve mini quizler
+https://www.w3schools.com/java/default.asp   -> |
+
+
+ Eğer pratik yapmak istersen
+https://www.w3resource.com/java-exercises/ -> Kod cevaplarıyla yüzlerce soru tek sitede
+https://www.w3schools.com/java/java_examples.asp -> tum temel konular ile alakalı interaktif kod örnekleri
+https://www.programiz.com/java-programming/examples -> tum temel konular acıklamalı interaktif olmayan kodlama örnekleri ile
+
+
+ Youtube kanal önerileri
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal
+https://www.youtube.com/c/BroCodez -> Çoğu kodlama dili ile ilgili kısa ve kaliteli örnekler

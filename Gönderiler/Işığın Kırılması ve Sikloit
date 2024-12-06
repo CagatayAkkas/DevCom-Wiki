@@ -1,0 +1,17 @@
+DevCom Fizik: Devlerin çarpışması ve parçadaki mucize.
+
+Soldaki şekli daha önce görmüşsünüzdür. Soru basit: Hangi eğim sonucu cisim en hızlı şekilde ikinci noktaya varır?
+
+Galileo (1638) bu eğim için kusursuz çemberin kenar açısı demiştir.
+
+1696 yılında Bernoulli bu sorunun cevabını bulduğunu düşünmüş ve bir yarışma başlatmıştır. Ancak 6 ay boyunca kimse cevap vermemiştir. Ardından Bernoulli, yarışı yurt dışına genişletmeye karar vermiştir. 29 Ocak 1697 günü Newton evine döner ve mektubu görür. Sabah saat 4’e kadar çalışır ve bir dergiye imzasız olarak çözümü verir (Bernoulli’de çözümü 2 haftada bulmuştur.)
+
+Peki nasıl? Bunu anlamanın yolu ışığı anlamaktan geçiyor. Işık, normalde bir noktadan diğerine en kısa yolu izleyerek ulaşır. Bu normalde düz bir çizgidir. Ancak resimde gördüğünüz gibi ışık kırılabilir. Peki neden? Bunun sebebi iki nokta arasını daha hızlı katetmektir (accayip bir şey).
+
+Işık çok hızlı olduğundan bize yuvarlak çiziyormuş gibi görünmez. Ancak aradaki kaymayı defalarca tekrarlayıp uzaktan baktığımızda bunun bir sikloit olduğunu görürüz.
+
+Bir cismi sikloit üzerine hangi noktadan koyarsanız koyun son noktaya aynı sürede ulaşır. Ayrıca bu, son noktaya ulaşmanın en hızlı/optimal yoludur.
+
+Bu optimizasyon ışığa özel değildir. Doğadaki her madde örnekteki gibi optimal olanı seçmeye programlanmıştır. Bu keşiflerin yapılması nasıl çağlar sürdüyse bundan sonrakilerin de bulunması çağlar sürecektir. Bugün, her şeyi bilmediğimizi bilmek bir erdem; bunu kabullenip keşfe hayran olmaksa bir zevktir =)
+
+Detaylar: https://www.youtube.com/watch?v=Q10_srZ-pbs

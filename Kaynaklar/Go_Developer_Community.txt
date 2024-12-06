@@ -1,0 +1,35 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) Golang(Go) Google muhendisleri tarafından gelistirilen ; hızlı, öğrenmesi kolay, açık kaynak bir kodlama dili olması sebebiyle de devamlı güncel kalabilen, network , web uygulamaları , cryptography , makine öğrenmesi gibi alanlarda aktif olarak kullanılan bir dildir. 
+Bu dili öğrenme serüveninde sana destek olmak için elimizden geleni yapacağız.
+
+ Öncelikle neyle karsı karsıyayız onu bir gorelim
+https://roadmap.sh/golang -> Tüm go tek roadmap
+
+ Dersler sırasında anlamadığın noktalara bakman için cheatsheetler. Kendin de not tutmayı unutma! =)
+https://zerotomastery.io/cheatsheets/golang-cheat-sheet/ -> Tüm konular tek cheat sheet
+https://devhints.io/go -> Tüm konular kod örnekleri ile 
+https://github.com/a8m/golang-cheat-sheet -> Topluluk tarafından olusturulan tüm konular kod acıklamalı
+https://quickref.me/golang -> Tum konular yazısız kod acıklamalı
+
+
+ Video İcerikleri
+https://www.youtube.com/watch?v=YzLrWHZa-Kc -> 4 saatte temel Go 
+https://www.youtube.com/watch?v=YS4e4q9oBaU -> 6.5 saatte Go
+https://www.youtube.com/watch?v=jFfo23yIWac -> 8.5 saatte 11 proje 
+
+
+
+ Yazılı kaynaklar
+https://www.w3schools.com/go/index.php -> sıfırdan yüze yazılı olarak öğrenmek istersen
+https://gobyexample.com/ -> Tum konu baslıkları tek site
+https://golangbyexample.com/ -^
+
+
+ Pratik
+https://www.javatpoint.com/go-programming-interview-questions -> Sozel mulakat soru örnekleri
+
+
+
+
+ Youtube Kanal Önerileri
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal

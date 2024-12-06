@@ -1,0 +1,13 @@
+DevCom Nobel: Fizik ödülü ve sahipleri.
+
+Bugünkü yapay zekanın temelleri olan nöral ağların babaları olarak da tabirlenen John H. ve Geoffrey Hi. Nobel fizik ödülünü kazandılar. Peki nöral ağların fizikle ne alakası var?
+
+Nöral ağlar insan beynini taklit eden bir mimariye sahiptirler. Beynimiz bir bilgiyi kullanırken/öğrenirken birden fazla nöron ateşlenir. Ateşlenen nöronlar arasındaki bağlantılar artar (resme bakınız). Nöral sistemde nöronlar düğüm (node) olarak belirlenir ve her bir işlemde kullanılan (ateşlenen) düğümler arasındaki bağlantı kuvvetlendirilir. Bir girdi geldiğinde ilk ateşlenen düğüme en yakın değerlere tutunulur ve bunlardan bir sonuç sağlanır. Yani veri uzayındaki en yakın noktaya gidilir.
+
+Hopfield Ağı (çağrışımlı bellek): Görüntüleri ve diğer veri kalıplarını saklayıp yeniden oluşturabilen bir sistemdir. İlgili veriler makinelere tam olarak verilmese bile cevabın doğru olarak alınabilmesini sağlar. Yani “düşünme” olarak kabul edebileceğimiz çağrışımsal idrak oluşturur.
+
+Boltzmann Makinesi:  Hopfield ağını temel alır ve yine makinelerin nöronsal öğrenimini sağlar. Ancak bu işlemi daha matematik ağırlıklı yapar. Boltzmann dağılım denklemini kullanır. Enerji fonksiyonları ile düğüm yakınlıklarına farklı yollarla ulaşır. Düğümler arasında geri besleme vardır. Yani ağdaki nöronlar sadece bir sonraki ile değil birbiri ile de etkileşebilir. Sistemine saklı katmanlar eklenebilir. Bunlar işi daha da kompleksleştirerek veri uzayına yeni bir boyut ekler ve öğrenim derinliğini arttırır.
+
+Özetle: Bilgisayar bilimine fizik alanındaki denklemlerle yaklaşıp değer ürettikleri için ödüle layık görülmüşlerdir ve neredeyse her keşif çoklu disiplin bilgisine sahip olduğundan bu durum yadırganamaz =)
+
+Nobel Resmi Sayfası: https://www.nobelprize.org/prizes/physics/2024/press-release/

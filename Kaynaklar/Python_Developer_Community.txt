@@ -1,0 +1,41 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) Python, öğrenmesi kolay bir dil olmasının yanı sıra her geçen gün yazılım sektöründeki hacmi artan;makine öğrenmesi,otomasyon,web geliştirme ve neredeyse istenilen her alanda, aktif topluluğunun geliştirdiği kütüphaneler ile yer tutabilen bir dil.
+Bu dili öğrenmende sana yardımcı olmak için elimizden geleni yapacağız
+
+ 
+ Öncelikle yol haritamızı cebimize koyalım
+https://roadmap.sh/python
+
+ Daha sonra bize yolculukta yardım edecek cheatsheetlerimiz
+https://zerotomastery.io/cheatsheets/python-cheat-sheet/ ->Olabilecek en iyi cheatsheet
+https://www.programiz.com/python-programming -> Tum temel konular ve açıklamaları
+
+
+ Video içerikler (Bazı kaynaklar benzer kalitede aynı konuları anlatsa da anlatımını beğendiğin eğitmeni seçmen için seçenek olarak sunuyoruz)
+https://www.youtube.com/watch?app=desktop&v=XKHEtdqhLK8 -> Tum konular tek video
+https://www.youtube.com/watch?v=_uQrJ0TkZlc -> 6 saatte örnekler ile tum konu baslıklarını öğrenmek ve ilgili alanlara(makine öğrenmesi, otomasyon,web sitesi oluşturma) kısa girişler yapmak için ideal bir kurs.
+https://www.youtube.com/watch?v=rfscVS0vtbw -> sadece 4 saatte cok derine inmeden ama yeterli seviyede öğrenme için
+https://www.youtube.com/watch?v=eWRfhZUzrAc -> 4.5 saatte belirli bir seviyede öğrenmek için diğer bir kaynak
+
+ Yazılı kaynaklar
+https://www.learnpython.org/                          -> |
+https://www.w3schools.com/python/python_examples.asp  -> |Aradığın konu başlıklarını interaktif örneklerle öğrenebilmen için
+https://www.programiz.com/python-programming/examples -> | 
+https://github.com/vinta/awesome-python -> İleri seviye konular için kütüphaneler
+
+ Pratik yapman için 
+https://www.w3resource.com/python-exercises/ -> Her türlü konuyu içeren. İçinde 1000+ kodlama sorusu ve cevapları bulunan evde , toplu tasımada ver her yerde faydalanabileceğin bir site. Azami seviyede tavsiye ediyoruz =)
+https://quescol.com/interview-preparation/python-coding-question-> 100+ python kodlama sorusu ve açıklamalı cevapları
+https://data-flair.training/blogs/python-programming-interview-questions/ -> Örnek mülakat soruları
+
+  Pratik tamam diyorsan artık sertifika vakti
+https://www.freecodecamp.org/learn/scientific-computing-with-python/ -> Tum temel konular ile ilgili soruları çözerek ilk sertifikanı almaya hak kazanabilirsin =)
+ 
+ Youtube kanal önerileri
+https://www.youtube.com/c/BroCodez -> Çoğu kodlama dili ile ilgili kısa ve kaliteli örnekler
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal
+
+
+
+
+

@@ -1,0 +1,16 @@
+DevCom Rehber: DNS-DPI (D.B.D. Discord’a nasıl girilir?)
+
+VPN ile girilebileceğini biliyoruz. Ancak bu direkt tüm internet akışımızı başkasının eline vermek oluyor ki riskleri ücretsiz olmalarından belli. Ayrıca ücretsiz servislerin genelinde yavaşlık da söz konusu. Peki nasıl olacak?
+
+Çözüm: DNS ayarlarınızı güncelleyin ve GoodbyeDPI kullanın.
+
+DNS, site adreslerini yazıdan sayılara (IP’lere) dönüştüren sistemdir. İnternet servis sağlayıcınız DNS servisini çeşitli siteler için kapayabilir. Bu da erişiminizi engeller. Ancak Cloudflare veya Google’ın servislerini kullanmak size hız ve güven sağlayacaktır. Tek yapmanız gereken ağ ayarları kısmına istediğiniz servisin sayılarını yazmak. (Örk: Cloudflare: 1.1.1.1 ve 1.0.0.1).
+
+DPI (Deep Packet Inspection), adından da anlaşılabileceği gibi internet ağınız üzerinde akan verileri (paketleri) denetler. Siteyi girmeyi başarsanız bile oradan veri almanızı engeller.
+
+GoodbyeDPI: Farklı yollarla DPI’ı kandırmaya çalışır. Mesela teşhis için gönderilen paketleri önden alarak değiştirir veya direkt gönderilmelerini engeller. Bu yazılımı kullanarak Discord’a girebilirsiniz. Yazılımın açık kaynak olduğunu da belirtelim =)
+Link: https://github.com/ValdikSS/GoodbyeDPI
+
+Artılar: DNS değiştirince tek ayarla daha kaliteli ve güvenli bir internet deneyiminiz olur. GoodbyeDPI ile de VPN zorunluluğunu kaldırmış olursunuz.
+
+Eksiler: Discord’a normal uygulama üzerinden girilmediği oluyormuş. Ancak tarayıcı üzerinden girişler serbest =)

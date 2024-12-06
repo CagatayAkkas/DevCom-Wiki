@@ -1,0 +1,89 @@
+Author: Çağatay Akkaş
+
+  Yazı
++)ctrl + a -> bulunan alanın tamamını tarar
++)ctrl + c -> kopyalar
++)panoyu acmayı goster windows + v
++)ctrl+ v -> yapıstırır 
++)ctrl + x -> kesip eline alır sonra yapıstırabilirsin
++)ctrl + z -> yapılan degisikligi geri alır
++)ctrl + ok tusu -> kelimeler arası hızlı gecis
++)ctrl + ok + shift -> kelimeleri gecerken tarar
++)shift + ust/altok -> satırları tarar
++)ctrl + s -> degisiklikleri kaydeder
++)win + . -> emoji panelini acar
+
+  İnternet Tarayıcısı
++)ctrl + scroll -> sayfanın boyutunu degistirir
++)ctrl + 0 -> zoomları geri orijinal hale alır
++)f5/ctrl + r  sayfayı yeniler
++)f11 tam ekran moduna sokar
++)ctrl + f5 cache den silip serverdan tum sayfayı tekrar ister
++)ctrl + d -> bulunan sayfaları favoriye ekler
++)ctrl + shift + b -> favoriler sekmesini acıp kapatır
++)ctrl + shift + o -> favorilerin tamamını gormek icin
++)ctrl + n yeni pencerede yeni sekme acar
++)ctrl + w -> oldugumuz sekmeyi kapatır
++)ctrl + shift + n -> yeni gizli sekme acar
++)ctrl + tab -> sekmeler arası dolasır
++)ctrl + h -> gecmisi acar
++)ctrl + j -> indirilenler gecmisini acar
++)ctrl + l ->imleci dogrudan ust arama cubuguna goturur
++)ctrl + k -> ust cubugu google aramasına cevirir ve imleci götürür
++)ctrl + t -> yeni sekme acar
++)alt + ok tusu -> onceki veya sonraki sayfaya tekrar gider
++)alt + f4 -> acık olan uygulamayı kapatır
++)ctrl+tab -> pencereler arası gecis
++)ctrl + f -> ekranda kelime arar
++)ctrl+shift+t -> kapadıgın sayfayı tekrar acar
+
+  Dosyalar/Masaüstü (Windows)
++)f2 -> dosyanın adını degistirme
++)ctrl + click -> tek tek secer
++)ctrl + clik ... shift + click -> aralarındaki tum dosyaları secer
++)ctrl + shift + esc -> gorev yoneticisini acar
++)alt + tab -> uygulamalar arasında gecis
++)win + tab -> gorerek gecis
++)win + l -> kullanıcıyı kitler
++)win + sayı -> alt gorev alanındaki ilgili konumdakini acar
++)win + e -> dosya gezginini acar
++)win + ı -> ayarları acar
++)alt + enter -> secilen elemntin ozelliklerini acar
++)ctrl + alt + del -> zor zamanlarda gorev yoneticisini acmak icin 
++)ctrl + win + d -> yeni sıfır masaustu olusturur
++)win + ok tusları -> ekranı cerceveye dayar
++)win + d -> tum uygulamaları alta alır masa ustune atar tekrar basarsak hepsi geri gelir
++)win + prtScr -> ekran fotosu alır
++)win + shift + s -> belirli alanın ekran fotosunu alır
+
+
+  Programlama
++)ctrl + u -> tarayıcı source kodu acar
++)ctrl + shift + ı -> developer consolu tarayıcıda acar
++)ctrl + l -> konsolu siler
++)ctrl + shift + n -> yeni pencere acar
++)ctrl + , -> ayarları acar
++)ctrl + w -> sekmeleri kapar
++)ctrl + b -> yan alanı acıp kapatır
++)ctrl + j -> terminali acıp kapatır
++)ctrl + s kodu kaydeder / not defterim vs yi de kaydeder
++)ctrl + k ... s -> tum kaydedilmemis dosyaları kaydeder
++)F2 -> variable isimlerini toptan degistirir
++)ctrl + f2 -> secilen degerlere toptan imlec atar
++)alt + click -> secilen alanlara imlec atar
++)f3 -> variable'ın kullanıldıgı sıardaki yere gider  /////////////
++)ctrl + f -> kelimeyi arar toptan degistirme tusunu da goster
++)ctrl + y ileri alır
++)alt + alt/ust ok tusu o satırı asagıya tasır
++)F8 errorlar arasında hızla gezinme
++)ctrl + space -> otomatik tamamlama seceneklerini gösterir
++)ctrl + backspace -> kelimeyi siler
++)ctrl + l tum satırı secer
++)ctrl+ end secili yerden satır sonuna kadarı tarar
++)ctrl+home secili yerden onu tarar
++)ctrl + alt + parantezler -> secili alanı paranteze alır
++)ctrl + k + c -> secilen alanı yorum satırı yapar
++)ctrl + k + u -> secilen alanı yorum satırından cıkarır
++)ctrl+p -> dosyalar arası gecis ekranı verir
++)f12 degerin degistirildigi yerleri gosterir
++)alt + space -> shortcutları acar

@@ -1,0 +1,34 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) JavaScript web developerların olmazsa olmazı, internet sitelerine interaktiflik katmak için kullanılan; Solidity gibi diller ve geliştirilen uygulamalarda da backend scriptlerinin yazılmasında kullanılan. Yazılım aleminin vazgeçilmezi bir dildir.
+Bu dili öğrenme yolculuğunda sana yardımcı olmak için elimizden geleni yapacağız
+
+ Öncelikle yol haritamızı alalım
+https://roadmap.sh/javascript
+
+ Dersler sırasında anlamadığın noktalara bakman için cheatsheetler. Kendin de not tutmayı unutma! =)
+https://zerotomastery.io/cheatsheets/javascript-cheatsheet-the-advanced-concepts/ -> Olabilecek en iyi cheatsheet
+https://websitesetup.org/javascript-cheat-sheet/ ->Tum konular, sade arayüz
+
+ Video içerik (Bazı kaynaklar benzer kalitede aynı konuları anlatsa da anlatımını beğendiğin eğitmeni seçmen için seçenek olarak sunuyoruz)
+https://www.youtube.com/watch?v=8dWL3wF_OMw ->8 saatte tüm temel JavaScript konuları
+https://www.youtube.com/watch?v=jS4aFq5-91M --^
+https://www.youtube.com/watch?v=lI1ae4REbFM -> Daha detaylı anlatım ve daha cok örnek istersen
+https://www.youtube.com/watch?v=hHwxdPIUUBo -> (Türkçe) 4 saatte temel JavaScript
+
+ Yazılı Kaynaklar
+https://www.w3schools.com/js/js_examples.asp -> Tüm temel konuları interaktif compiler eşliğinde örnek kodlama soruları ve cevaplarıyla birlikte öğrenebilirsin
+https://www.programiz.com/javascript/examples -> Yine temel konuları interaktif olmadan ama daha detaylı şekilde yine kod örnekleri ile öğrenmek için
+
+
+ Pratik yapma zamanı geldiyse
+https://www.geeksforgeeks.org/javascript-examples/ -> İstediğin her konu ile ilgili kodlama soruları ve cevapları tek sitede
+https://www.edureka.co/blog/interview-questions/javascript-interview-questions/ -> Mulakatlarda sorulabilecek yarı sözel yarı kodlamalı sorular
+
+
+ Pratik tamam diyorsan artık sertifika vakti
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/ -> Tum temel konular ile ilgili soruları çözerek ilk sertifikanı almaya hak kazanabilirsin =)
+ 
+ Youtube Kanal Önerileri
+https://www.youtube.com/c/WebDevSimplified -> Kısa ve öğretici videolarla kendine yeni yetenekler kat
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal
+https://www.youtube.com/user/sadikturan41/videos ->(Türkçe) Çeşitli konularda kısa kodlama içerikleri

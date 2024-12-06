@@ -1,0 +1,169 @@
+                                      BLOCKCHAIN
+
+1) Blockchain Developer: Bu başlık ikiye ayrılır
++Core Blockchain Developer : Blockchain sisteminin mimarisini tasarlar, consensus bloğunu yazar, sistemsel güvenliği sağlar, protokolleri düzenler.
++Blockchain Software Developer: Halihazırda kurulmuş blockchain sistemi üzerine uygulamalar geliştirir. 
+
+2)Blockchain Engineer: Blockchain teknolojisini kullanarak var olan sorunlara çözümler üretir.
+
+3)Blockchain Security Engineer: Blockchain sistem mimarisi ve üzerine yapılan uygulamaların güvenliğinden sorumludur. Tüm Solidity fonksiyonları , genel saldırı tipleri ve 3. parti kontrol uygulamalını bilmesi gerekir(örnek: Mythril , SWC-registry , MythX , SmartCheck , Octopus , Awesome Buggy ERC20 Tokens).
+
+4)Web3 Developer : Merkezi olmayan uygulama (Dapp) ve cüzdan bağlanılarak etkileşime girilen sitelerin geliştirilmesi ile ilgilenir. Web developer gibi frontend(HTML , CSS , Javascript ) , backend veya full stack (hem frontend hem backend) odaklı çalışır. 
+
+Blockchain ile ilgili tüm kariyerlerde bilinmesi gereken konsept, bilgi ve başlıklar:
+
+Temel kodlama elementleri
+
+	Solidity | Akıllı kontratların %90'ı Solidity ile yazılır.
+	Openzeppelin | Topluluğun standart olarak kabul ettiği kod kütüphanesi
+	Chainlink | Oracle , blockchaini dış sistemlere bağlayan araçlardır.
+
+Ana ağa kontratları gönderirken kullanılan 3. parti uygulamalar 
+
+	Remix | Mutlaka bilinmeli
+	Hardhat | Javascript temelli framework
+	Brownie | Python temelli framework
+	Dapp Tools | Komut satırı (command line) temelli framework
+
+Temel Kavramlar
+
+	Temel kriptografi , konsensus ve blockchain nasıl çalışır 
+	Blockchain cüzdanları nedir , Gaz ücretleri nedir , blockchain ile nasıl etkileşime geçilir
+	Solidity Temelleri
+
+Bilinmesi Gereken Konseptler
+
+	NFT | Sanat ve fayda temelli benzersiz tokenler
+	DAO | Merkezi olmayan otonom organizasyonlar
+	DeFi | Merkeziyetsiz finans
+	Güncellenebilirlik | Kontratların nasıl güncellenebileceği bilgisi
+
+3. Parti Destekler
+
+	Testnets | Ana ağın içinde maddi bir değeri olmayan kopyası , tüm test ve öğrenme aşaması bu ağlarda olur.
+	Etherscan ve Block explorer | Blockchain sistemindeki işlemleri görmeye olanak tanır.
+	Alchemy ve Node-As-A-Service | Ağlara (main/test) bağlanmayı sağlar.
+	Moralis | Full stack uygulama üretilmesinde kullanılır.
+
+Bilinmesi faydalı olacak kodlama dilleri:
+	C, Ruby, Golang, C#, ve Java
+
+    
+
+
+                                      MOBİL UYGULAMA 
+
+Mobil Uygulama geliştirici IOS ve Android mobil cihazlar için çeşitli amaçlar için uygulama geliştiren kişilerdir.
+
+Mobil Uygulama Geliştiriciler ikiye ayrılırlar:
+
+1-) IOS Geliştiriciler
+	
+	IOS geliştiriciler Apple ekosisteminde IPhone ve Apple Watch üzerinde çalışacak uygulamaları geliştirir.
+	IOS geliştiricilerin Android geliştiricilere kıyasla en büyük farkları uygulamayı yazdıkları yazılım dilidir. Diğer kısımlar büyük çoğunlukla benzerdir.
+
+Gerekenler:
+
+	Programlama dilleri	 :	Swift, Objective-C, React Native, Flutter 				(IOS için çoğunlukla Swift kullanılıyor)
+	Veritabanı teknolojileri : 	SQLite, Realm, MongoDB veya Firebase					(Çoğunlukla Google tarafından geliştirilen Firebaser kullanılır)
+	API'ler			 :	Google Maps API, Twitter API, Facebook API				(Uygulamanızı daha gelişmiş hale getirmek için önemlidir.)
+	Arayüz tasarım aracıları :	Adobe Photoshop, Figma, Sketch						(Figma ile ücretsiz profesyonel tasarımlar oluşturabilirsiniz)
+	Kütüphane ve araçlar	 :	iOS SDK
+	Yazılım mimarisi tasarımı:	Model-View-Controller [MVC], Model-View-ViewModel [MVVM] veya Model-View-Intent [MVI]
+	Depolama			 :	Google Cloud, Amazon Web Services, Azure
+	Güvenlik araçları 	 :	Google Authenticator , Microsoft Authenticator				
+	Analiz			 :	Google Analytics, Firebase Analytics					(Uygulamanızı verilere göre şekillendirmek önemlidir)
+
+2 -) Android Geliştiriciler
+
+Gerekenler:
+
+
+	Programlama dilleri	 :	Java, Kotlin, React Native, Flutter		     (Flutter veya React Native ile hem IOS hem Android için uygulamalar yapılabilir)
+	Veritabanı teknolojileri : 	SQLite, Realm, MongoDB veya Firebase	     (Çoğunlukla Google tarafından geliştirilen Firebaser kullanılır)
+	API'ler			 :	Google Maps API, Twitter API, Facebook API 
+	Arayüz tasarım aracıları :	Adobe Photoshop, Figma, Sketch		     (Figma ile ücretsiz profesyonel tasarımlar oluşturabilirsiniz)
+	Kütüphane ve araçlar	 :	Andorid SDK
+	Yazılım mimarisi tasarımı:	Model-View-Controller [MVC], Model-View-ViewModel [MVVM], Model-View-Intent [MVI]
+	Depolama			 :	Google Cloud, Amazon Web Services, Azure
+	Güvenlik araçları		 :	Google Authenticator , Microsoft Authenticator (Bu tür araçları finansal bir uygulama yapacaksanız kullanabilirsiniz)
+	Analiz 			 :	Google Analytics, Firebase Analytics	     
+
+
+Eğer isterseniz Flutter veya React Native üzerine yoğunlaşarak 2 platforma da uygulamalar geliştirebilirsiniz.
+
+Hangi platformda uygulama geliştireceğinize karar verdikten ve birkaç alıştırmadan sonra daha da uzmanlaşmak için şu alanlara yoğunlaşabilirsiniz:
+
+
+1. Mobil Uygulama Tasarımı				:	Tasarımdan sorumludur.
+2. Mobil Uygulama Geliştirme				:	Ana yazılımından sorumludur.
+3. Mobil Uygulama Veritabanı Yönetimi		:	Veritabanı ve işlemlerinden sorumludur.
+4. Mobil Uygulama Kullanıcı Arayüzü Tasarımı	:	Tasarımın kodlanmasından ve kullanıcı etkileşiminden sorumludur.
+5. Mobil Uygulama Güvenliği				:	Güvenlikten sorumludur.
+6. Mobil Uygulama Yönetim Sistemi			:	Yönetim sisteminin planlanmasından ve yönetilmesinden sorumludur.
+7. Mobil Uygulama İçerik Yönetimi			:	Uygulamada yayınlanacak içeriklerden sorumludur.
+8. Mobil Uygulama Test ve Değerlendirme		:	Test yaparak hataları ve geliştirmeleri raporlar.
+9. Mobil Uygulama Analizi				:	Uygulamanın performans ve kullanıcı analizlerini yapar.
+10. Mobil Uygulama İş Akışı Yönetimi		:	İş planlamasını ve yönetimi yapar.
+11. Mobil Uygulama Dağıtımı				:	Uygulamanın dağıtılmasından versiyonlanmasından sorumludur. 
+
+
+
+                                      TASARIM 
+
+
+  Grafik Tasarımci :Tipografi (Yazi tasarimi),renk,şekil,fotoğraf gibi cesitli ogeler ile fikirleri gorsel iletisim ogelerine çevirme yetkinliğine sahip kişidir.
+Adobe® Creative Suite ( Yetenek setine dahil ihtiyaclari tanim kisminda belirttigimden tekrar gerekli yetkinliklere eklemedim)
+Grafik tasarim basligi altinda asagidaki is unvanlarını da barindirir.
+  -Marka Tasarimi 
+ - Baski Tasarimi
+ - Yayin Tasarimi
+ -  Animasyon Tasarimi
+
+Bilgi Tasarımcısı : Analitik bir yaklaşıma sahip hikaye anlatıcıları olarak özetlenebilir.Sayisal veriyi görselleştirerek sunarlar.
+
+	Gerekli Yetkinlikler;Adobe Creative Suite,Excel
+
+ 
+Deneysel Tasarımcı : Fiziksel bir ortamin mesaji/hissi uzerine calisan tasarimcilardir.Mimarlarla ortakliklari sikca görülmekte.Grafik tasarımcı kriterlerine sahip olmakla birlikte problem cozme,insan psikolojisini anlamlandirma yetkinliklerine sahiptir.Sergi,kampanya gibi mekansal etkinliklerin deneyim haline cevirilmesinden sorumludurlar.
+	
+	Gerekli Yetkinlikler;Adobe Creative Suite
+
+
+Etkileşim Tasarımcısı (IxD) : Ürün,cevre,sistem veya servis ile kullanici arasindaki etkilesimi kelime,gorsel elementler,objeler,devinim,ses ve boşluk gibi öğelerle teknoloji aracılığında guclendiren kisidir.
+
+Gerekli Yetkinlikler : Adobe Creative Suite,UX akis  semasi,JavaScript
+
+
+Kullanıcı Deneyimi (UX) Tasarımcısı : Kullanıcının ürün hizmet veya ortam ile olan hem dijital hem fiziksel deneyiminden sorumludur.Arastirma,strateji,gelistirme ve tasarim yetkinliklerini bunyesinde bulunduran kisilerdir.Tasarladıkları arayüzün kolay anlasilir ,estetik ve sezgisel olmasi en temel oncelikleridir.Bir Kullanıcı Deneyimi Tasarimcisinin ayni zamanda Etkileşim Tasarımcısı olarak calistigi gorulmemis sey degildir aksine gayet yaygin bir durum.
+
+Gerekli Yetkinlikler : UX akis semasi,prototipleme,Adobe Creative Suite
+
+Kullanıcı Arayüzü (UI) Tasarımcısı :  Kullanıcı Deneyimi Tasarimcisi ve Etkileşim Tasarımcısindan aldigi arastirma sonuclarini kullanarak kullanici arayuzunu tasarlamaktan sorumlu kisidir.Web sitesi semasi,prototipleme ve test etme islerinin buyuk bir kismini olusturur.Butonlar,menüler,renk paletleri,görseller,fontlar gibi ekran uzerindeki tum ogeleri kullaniciya en anlamli bicimde sunarlar.
+
+Gerekli Yetkinlikler : Adobe Creative Suite,UX akis  semasi,JavaScript
+
+Web Tasarımcısı : Musterinin istekleri dorultusunda anlasilir,fonksiyonel ve estetik web siteleri yaratmaktan sorumludurar.Gelistiricilerle ortak calisirlar.Ana sorumluluklari yapi,kullanislilik ve gorsel sunumdur bu aracilikta renk ve fontlarla yakindan calisirlar.
+	Gerekli Yetkinlikler : HTML, Cascading Style Sheets (CSS), JavaScript (agirlikli olarak bu diller talep ediliyor)
+
+Oyun Tasarımcısı : Bir oyuna ait duzen,kod,hikaye,cevre,karakterler,sesler butununun bir araya getirilerek anlam kazandirilmasindan sorumludur.Hedef kitlelerini iyi tanimalilardir ki oyuncunun navigasyon,etkilesim,sezgisel tercihlerini baz alarak bir seruven tasarlayabilsinler.
+
+Gerekli yetkinlikler : Maya, ZBrush, Nuke, Unreal Engine, augmented reality (AR), virtual reality (VR), 3D audio,LED wall
+
+ayrica kreatif isler olarak asagidaki basliklar da yaygin olarak tercih ediliyor.Is tanimlari ve icerikleri daha geleneksel oldugu icin herhangi bir aciklama eklemedim.
+
+-Tasarim Muhendisi 
+- Tasarim Yonetmeni 
+- Sanat Yönetmeni  
+- Yaratici Yonetmen 
+- Fotografci
+- Moda Tasarımcısı 
+- Mimari Tasarımcı
+- Endustriyel Tasarim 
+ 
+
+
+
+      
+
+

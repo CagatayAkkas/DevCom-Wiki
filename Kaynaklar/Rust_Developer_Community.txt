@@ -1,0 +1,32 @@
+Not:Eger harflerin gorunumunde sikinti varsa sag ustteki 3 noktaya basarak birlikte ac ardindan office veya HTML Goruntuleyiciyi secmeniz sorunu cozecektir.
+ Selamlar =) Rust, Mozilla tarafından geliştirilen, C ve C++ gibi yüksek seviyeli dillerin performansına yakın olan, ancak çok daha güvenli olan ve 
+sadece bir kez kodlamaya gerek duyulan bir programlama dilidir. Rust, hızlı bir derleme süreci ve statik olarak türkontrol edilen kodu sağlayarak, geliştiricilerin 
+daha hızlı ve güvenli kod oluşturmalarını sağlar. Ayrıca, Rust'un zamanını azaltmak için fonksiyon çağırımlarını önceden derleme özelliği de vardır. Ayrıca Solana gibi 
+popüler blockchainler de güvenli ve hızlı olmasından dolayı Rust kullanırlar. 
+
+
+ Öncelikle yol haritamızı cebimize koyalım
+https://l24.im/Ooy -> Rust öğrenirken takip etmen gereken yol haritan bu şekilde 
+
+ Dersler sırasında anlamadığın noktalara bakman için cheatsheetler. Kendin de not tutmayı unutma! =)
+https://cheats.rs/ -> Tüm konular ile ilgili kod açıklamalı örnekler
+https://quickref.me/rust -> Konular ve kodlar =)
+
+ Video içerik
+https://www.youtube.com/watch?v=MsocPEZBd-M -> Temel Düzey Rust 
+https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL -> Konuları ayrı ayrı videolarda öğrenmek için
+https://www.btkakademi.gov.tr/portal/course/rust-programlama-dili-19962	-> Sertifikalı , Türkçe , BTK kalitesi ile Rust
+
+ Yazılı Kaynaklar
+https://doc.rust-lang.org/rust-by-example/  -> Tüm Rust tek site (Kod örnekleri ile)
+https://www.tutorialspoint.com/rust/index.htm -> Tüm Rust tek site (Daha az kod + Açıklamalar ile)
+https://www.freecodecamp.org/news/rust-in-replit/ -> Tüm Rust tek site (Daha net kod örnekleri ve açıklamaları ile)
+
+ Pratik Yapman için:
+https://exercism.org/tracks/rust/ -> Her konuda egzersize doymak için
+https://www.codewars.com/kata/search/rust?q=&beta=false&order_by=sort_date%20desc -> Bilgiler hazırsa, Hadi savaşa \o/
+
+ Youtube kanal önerileri
+https://www.youtube.com/c/WebDevSimplified -> Kısa ve öğretici videolarla kendine yeni yetenekler kat
+https://www.youtube.com/c/Freecodecamp -> Tüm kodlama dilleri tek kanal
+https://www.youtube.com/@derekbanas/videos -> Kodlamaya ilişkin kaliteli içerikler

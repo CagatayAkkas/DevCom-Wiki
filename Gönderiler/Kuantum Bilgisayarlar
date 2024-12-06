@@ -1,0 +1,27 @@
+DevCom Bilgi: Kuantum Bilgisayarlar ve GTA6
+
+Ülkemiz, kendi kuantum bilgisayarı QuanT’yi üreterek bu teknolojiye sahip 15 ülkeden biri oldu. Sistem 5 kübit gücünde. Peki bundan ne anlamalıyız?
+
+Temel donanımlar:
+Çipler > Basit Modüller > Mantıksal Kapılar (Logic Gates) > Transistörler.
+
+Transistörler, 0 ve 1 dediğimiz bitlerden sorumludur ve bilgisayarlar üzerindeki her şey bu verilerle olur.
+
+Bugün 1 transistörün boyutu 14nm (nanometre) (10^-9), yani insandaki kırmızı kan hücresinden 500 kat daha küçüktür.
+
+Günümüzde transistörler küçülme limitine vurduklarından donanımsal gelişim yavaşlamıştır.
+
+En temelde ise transistörlerden bile küçük, sistemin kanı diyebileceğimiz elektrik vardır ve elektronları barındırır.
+
+Klasik tanım: Normalde bitler 0 ve 1 dir. Ancak kuantum da kübitler hem 0 hem de 1 olabilir. Yani?
+
+Burada olay, parçacıkların kuantum düzeyinde süper pozisyonda olmaları ve ölçülene kadar değelerinin devamlı değişmesidir. Yani?
+
+Bizler birbirine paralel bağlı kübitlerden birine baktığımızda diğerini tahmin edebiliyoruz. Bu da bize manipülasyon imkânı veriyor. Yani tek bir devre yaparak birbirinden farklı ve istediğimiz sonuçları alabiliyoruz. Burada ihtimaller polinomsal artıyor. Örnek: Bilinmeyen X kübiti. Bunu gidip başka bir kübite bağlarsam. İhtimaller: X  X = X^2 olur. Yani normalde 0-1, 0-0, 1-1 ve 1-0 olabilecek sabit 4 ihtimal yerine parametrik ihtimaller üretebiliyoruz. Bu da bize muazzam bir işlem gücü veriyor.
+
+Ne işe yarar ve GTA6 açar mı?
+Kuantum bilgisayarlar matematik tarafında çok iyiler. Korkunç işlem güçleri ile şifreleme algoritmaları başta olmak üzere her ihtimali zorlayarak sistemleri çökertebilir ve simülasyonlar gibi ihtimal üzerinden giden işlerde kullanılabilirler.
+
+Zannedilenin aksine GTA6 açamazlar. Çünkü her şey sadece hesaplama gücüne bağlı değildir. Böyle olsa bilgisayarda işlemciden başka parçaya ihtiyaç olmazdı. Ayrıca kuantum bilgisayarlar -273 derecede çalışıyorlar. Yani hem diğer parçaları hem de doğal gaz giderinizi olumsuz etkileyeceklerdir =)
+
+Detaylar: https://www.youtube.com/watch?v=JhHMJCUmq28

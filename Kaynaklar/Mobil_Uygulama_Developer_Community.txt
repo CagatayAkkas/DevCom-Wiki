@@ -1,0 +1,56 @@
+    Mobil Uygulama Geliştirici
+
+Mobil Uygulama geliştirici IOS ve Android mobil cihazlar için çeşitli amaçlar için uygulama geliştiren kişilerdir.
+
+Mobil Uygulama Geliştiriciler ikiye ayrılırlar:
+
+1-) IOS Geliştiriciler
+	
+	IOS geliştiriciler Apple ekosisteminde IPhone ve Apple Watch üzerinde çalışacak uygulamaları geliştirir.
+	IOS geliştiricilerin Android geliştiricilere kıyasla en büyük farkları uygulamayı yazdıkları yazılım dilidir. Diğer kısımlar büyük çoğunlukla benzerdir.
+
+Gerekenler:
+
+	Programlama dilleri	 :	Swift, Objective-C, React Native, Flutter 				(IOS için çoğunlukla Swift kullanılıyor)
+	Veritabanı teknolojileri : 	SQLite, Realm, MongoDB veya Firebase					(Çoğunlukla Google tarafından geliştirilen Firebaser kullanılır)
+	API'ler			 :	Google Maps API, Twitter API, Facebook API				(Uygulamanızı daha gelişmiş hale getirmek için önemlidir.)
+	Arayüz tasarım aracıları :	Adobe Photoshop, Figma, Sketch						(Figma ile ücretsiz profesyonel tasarımlar oluşturabilirsiniz)
+	Kütüphane ve araçlar	 :	iOS SDK
+	Yazılım mimarisi tasarımı:	Model-View-Controller [MVC], Model-View-ViewModel [MVVM] veya Model-View-Intent [MVI]
+	Depolama			 :	Google Cloud, Amazon Web Services, Azure
+	Güvenlik araçları 	 :	Google Authenticator , Microsoft Authenticator				
+	Analiz			 :	Google Analytics, Firebase Analytics					(Uygulamanızı verilere göre şekillendirmek önemlidir)
+
+2 -) Android Geliştiriciler
+
+Gerekenler:
+
+
+	Programlama dilleri	 :	Java, Kotlin, React Native, Flutter		     (Flutter veya React Native ile hem IOS hem Android için uygulamalar yapılabilir)
+	Veritabanı teknolojileri : 	SQLite, Realm, MongoDB veya Firebase	     (Çoğunlukla Google tarafından geliştirilen Firebaser kullanılır)
+	API'ler			 :	Google Maps API, Twitter API, Facebook API 
+	Arayüz tasarım aracıları :	Adobe Photoshop, Figma, Sketch		     (Figma ile ücretsiz profesyonel tasarımlar oluşturabilirsiniz)
+	Kütüphane ve araçlar	 :	Andorid SDK
+	Yazılım mimarisi tasarımı:	Model-View-Controller [MVC], Model-View-ViewModel [MVVM], Model-View-Intent [MVI]
+	Depolama			 :	Google Cloud, Amazon Web Services, Azure
+	Güvenlik araçları		 :	Google Authenticator , Microsoft Authenticator (Bu tür araçları finansal bir uygulama yapacaksanız kullanabilirsiniz)
+	Analiz 			 :	Google Analytics, Firebase Analytics	     
+
+
+Eğer isterseniz Flutter veya React Native üzerine yoğunlaşarak 2 platforma da uygulamalar geliştirebilirsiniz.
+
+Hangi platformda uygulama geliştireceğinize karar verdikten ve birkaç alıştırmadan sonra daha da uzmanlaşmak için şu alanlara yoğunlaşabilirsiniz:
+
+
+1. Mobil Uygulama Tasarımı				:	Tasarımdan sorumludur.
+2. Mobil Uygulama Geliştirme				:	Ana yazılımından sorumludur.
+3. Mobil Uygulama Veritabanı Yönetimi		:	Veritabanı ve işlemlerinden sorumludur.
+4. Mobil Uygulama Kullanıcı Arayüzü Tasarımı	:	Tasarımın kodlanmasından ve kullanıcı etkileşiminden sorumludur.
+5. Mobil Uygulama Güvenliği				:	Güvenlikten sorumludur.
+6. Mobil Uygulama Yönetim Sistemi			:	Yönetim sisteminin planlanmasından ve yönetilmesinden sorumludur.
+7. Mobil Uygulama İçerik Yönetimi			:	Uygulamada yayınlanacak içeriklerden sorumludur.
+8. Mobil Uygulama Test ve Değerlendirme		:	Test yaparak hataları ve geliştirmeleri raporlar.
+9. Mobil Uygulama Analizi				:	Uygulamanın performans ve kullanıcı analizlerini yapar.
+10. Mobil Uygulama İş Akışı Yönetimi		:	İş planlamasını ve yönetimi yapar.
+11. Mobil Uygulama Dağıtımı				:	Uygulamanın dağıtılmasından versiyonlanmasından sorumludur. 
+

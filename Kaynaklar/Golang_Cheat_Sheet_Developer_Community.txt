@@ -1,0 +1,258 @@
+Author: Çağatay Akkaş
+
+     Fundamentals
+1)For running the code in powershell terminal type go run name.go
+2)Basic go commands : go build (compiles bunch of go source code files -> makes exe file) , go fmt (formats the code), go install (install package) , go get(download raw source code of someones package) , go test(runs tests) 
+3)For exe files use package main at start and use func main()
+4)For functions use func name(){} and no need to use " ; " after lines
+5)Use import "fmt" generally 
+6)For printing -> fmt.Println("Cagatay")
+7)For checking packages -> https://pkg.go.dev/std
+
+
+    Basics 
+1)var name string = "Cagatay"
+2)Golang is not dynamic(can change later) it is static (cant be changed later)
+3)var name string "name" -> is same with=> name := "name"
+4)Use " :=  " only when initializing variable 
+Note: In Go we need to use every variable we decleared
++) fmt.Printf() -> for formatted data like structs ect.
++)For calling second argument of a variable while inside a string {"%+v"}
+
+      Functions
+5)! we can initialize variable out of main function but we cant assign a value to it
+6)func newName() string {return "Cagatay"} -> we need to type what variable type we will return
+7)We can use other functions inside main() even after we decleare them after main()
+8)We can use other functions in same package even without importing them inside our file
+Note:In Go functions can return more than one value for that func name() (int,int)->these are return types{}
+For multiple returns we need to capture all returns so -> number1 , number2 := functionName(parameter1)
+Also we don't need to use import to use other functions inside different files but in same package
+
+      Arrays
+9)Array -> fixed length , Slice -> an array that can grow or shrink
+10) name := [] string {"a","b"}
+11) For adding in slice -> name = append(name , "new element")
+Note: For combining strings ("Cagatay" , "akkas")
+      For
+12) for index , randomName := range sliceName {}
+
+
+      Types
+13)type names []string and in main -> name := names{"cagatay", "Silverwind"}
+14)For using both files we need to compile together go run x.go y.go
+15)
+type deck []string
+// Receiver function 
+with this only deck will be able to call this function
+func (d deck) nameOfFunction() {
+	for i, card := range d {
+		fmt.Println(i, card)
+	}
+16)While adding to strings -> (name + "is" + job)
+17)When we have variable but wont use it we put _ instead of their name
+18)!! When we decleare slices with ranges -> sliceName[0:2] we are including 0 but not including 2nd element
+19)sliceName[:2] means start from begin until 2(not included)
+20)sliceName[0:] means start from 0(included) until end
+
+      Writing To File
+
+21)func WriteFile(filename string , data []byte , perm os.FileMdoe) error
+ioutil.WriteFile()                                  0666-> makes a file 
+22)Type conversion -> ([]byte(name))
+23)func join (a []string , sep string) string will concentenates all strings into one string
+24)For using join add import it as import("fmt" 
+                                         "strings") -> no using comma instead use enter
+strings.Join([]string(d) , "," ) -> j is big
+25)For reading from file func ReadFile(filename string) ([]byte , error)
+data,err := ioutil.ReadFile(filename)
+26) nil -> is like NULL
+For deleting : Remove("nameOfTheFile")
+
+      If
+27) if err != nil {}
+!!! for if/else we need to type them in same line 
+if num%2 == 0 { //checks if number is even
+        fmt.Println("the number", num, "is even")
+    } else { -> here else needs to be in the same line with end of if 
+        fmt.Println("the number", num, "is odd")
+    }
+
+     General
+28)For breaking program -> os.Exit(1)
+29)For spliting strings -> split := strings.Split(str, ",")
+30)For getting random values -> with Math import we use func Intn(n int) int
+rand.Intn(number1) -> not generate real random value always gives same random values
+32)For getting length of slice len(sliceName)
+33)For real randomness
+source := rand.NewSource(time.Now().UnixNano())
+rand.New(source)
+34)For using time -> func (t Time) UnixNano() int64
+func randomValue(limitNumber int) int {
+
+	source := rand.NewSource(time.Now().UnixNano())
+	number1 := rand.New(source)
+	return number1.Intn(limitNumber)
+}
+      Testing
+35)end file name with _test.go
+36)For making test functions start functions with big letter and with Test ->TestnamOfFunction
+func TestrandomValue(t *testing.T) {
+	r := randomValue(3)
+
+	if r >= 0 {
+		t.Errorf("r is bigger than zero")
+	}
+}
+37)For running tests -> go test
+!!! Error if you see go.mod file not found -> type: go mod init test3 -> in terminal
+38)For errors -> Errorf("we got error here")
+ 
+      Struct
++) Example: type person struct{
+ firstName string
+ lastName string
+}
+func main(){
+ cagatay := person{firstName:"cagatay", lastName:"akkas"} 
+   
+}
+
+!!!p.firstName = "cagatay" -> this not changes the original one only the copy comes with p handle
+
++)Embeded structs 
+cagatay := person {
+name: "cagatay",
+contact : contactInfo{ -> here we dont need to name it we can just type contactInfo{}
+ email:"a@gmail.com",
+ zipCode: 12345 ,
+}
+
+
+      Pointers
++)Go is a past of value language
++)PointerName := &typeName
+func(pointerToPerson *person) updateName (newName string){
+ (*pointerToPerson).firstName= newName
+}
++) & -> refers to address (exp: pointerAddress := &person -> here pointer address is something like 0x0003)
++) * -> refers to value 
++) For structs we dont always need to use & for passin address to handles we can directly use handels but for * we need to use pointer
+! Turn address into value with *address
+! Turn value into address with &value
+! For slice there is not need to use pointer we can use directly handles to change actual variables because in slice there is already a part which has pointer in it 
+!!! When we pass slice to function it still copied but still points base value
+!!!Because slices are referance types and maps , channels , pointers, and functions also reference type
+!! But for normal variables it also works like struct we are not changing the real only changing the copy of it
+
+      Maps
++)All keys must be same type , all values needs to be same type
++) colors := map[string]string{ -> it means all variables we will initialize is string also all values are string
+ "red": "#ff0000",
+ "green":"#ab000",
+} 
++)We can also decleare mapping as -> var colors map[string]string
++)Or colors := make(map[string]string)
++)For adding new elemts to mapping -> colors["white"]= "#ww0000"
++)For deleting elements from map -> delete(colors,"white")
++)For iterating inside map:
+ func printMap(c map[string]string){
+for key , value := range c{}
+}
+
+      Interfaces
++) exp: type bot interface { getGreeting() string }
++)When we decleare interface and other variables has same functions in interface they are becaming member of interface
++) Exp: func printGreeting(b bot) {fmt.Println(b.getGreeting())} -> this can be used by other type structs if they have the function inside interface (having only 1 function is enough or not ?)
+/////////////////
+package main
+
+import "fmt"
+
+type greetInterface interface {
+	getGreeting() string
+}
+
+type english struct{}
+type turkish struct{}
+
+func main() {
+	eb := english{}
+	tb := turkish{}
+
+	printGreeting(eb)
+	printGreeting(tb)
+
+}
+func printGreeting(g greetInterface) {
+	fmt.Println(g.getGreeting())
+}
+
+func (english) getGreeting() string {
+	return "hello"
+}
+func (turkish) getGreeting() string {
+	return "Selamunaleyküm"
+}
+//////////////////////////////
++)type bot interface {
+ getGreeting (string, int) -> these are list of argument (string , error) -> these are list of return types
+}
+
+      Making request
+func main() {
+	resp, err := http.Get("http://google.com")
+
+	if err != nil {
+		fmt.Println("Error:", err)
+		os.Exit(1)
+	}
+
+	bs := make([]byte, 9999)
+	resp.Body.Read(bs)
+	fmt.Println(string(bs))
+
+}
+
++) bs := make([]byte,999999) -> give me empty byte slice which has 999999 empty space
+
+      Go Routines
++)Concurrency (es zamanlılık): Multiple threads executing code 
+Parallelism : Multiple threads executed at the exact same time. Requires multiple CPU's
++) go functionnName() -> we are only use go keyword before functions 
+ 
+      channels
++)c:= make(chan string) 
+//////////////////
+func main() {
+
+	link := []string{"http://google.com"}
+
+	c := make(chan string)
+	go checkLink(link[0], c)
+	fmt.Println(<-c)
+}
+func checkLink(link string, c chan string) {
+	_, err := http.Get(link)
+	if err != nil {
+		fmt.Println(link, "might went down")
+		c <- "might be down I think"
+		return
+	}
+
+	c <- "it is up"
+}
+
+////////////////////
+for{
+go checkLink(l,c) 
+}
+//same with 
+for l := range c{
+go checkLink(l,c)  -> here it keeps cheking is there any update and if range increase it initialize another go
+}
++)For putting it sleep -> time.Sleep (5* time.Second)
+         
+                            LeetCode Learnings
++) s_rune := string([]rune(name)[2]) -> gives specific character of string 
++)For using quicksort -> sort.Ints(a)
+

@@ -1,0 +1,78 @@
+Author: Çağatay Akkaş
+start 08.02.2023 end:08.02.2023
+
+      Basics
++)we always need doctype , head , body , 
++)<p> </p> -> this is for paragraph
++)<br> -> we are using this alone this is for skipping line 
++)<hr> -> using alone this put horizontal line in site
++)<!--this is a comment--> : for commenting 
++)For hyperlink
+<a href="https://www.google.com" target=_blank> 
++)if you want to add more than one css properties add ; and keep writing ;color:...
++)for sending mails : <a href="mailto:fake123@gmail.com">   </a>
++)for puting image -> <img src="name.png" height="300" width="300" alt="this is a random picture" title="this is a photo" > :if we cange height width automatically changes
++)we can make images hyperlinks
++)For audio -> <audio controls autoplay muted loop src="newSong.mp3"> //here autoplay , muted and loop is optional
++)For video -> <video controls autoplay muted loop src="videoName.mp4" width="500"> autoplay mtued and loop are optional 
+
+      Test formatting
++)for making text bald (kalın) put <b> </b>
++)for italic <i>  !!!from now there is always </x> after them
++)big -> <big>
++)small -> <small>
++)sub -> <sub>
++)inserted -> <ins>
++)deleted -> <del>
++)marked -> <mark>
+
+      Lists
++)unordered list : <ul> <li>one element</li> </ul>
++)ordered list : same with unordered but put <ol> insted of > -> this put numbers after elements , if me make <ol type="A"> : this makes it start from A to B C D ...
++)<dt> title </dt> <dd> this adds structure like ledder (basamak) </dd>
++)if you want sublist put another inside structure -> <li> toppings <ul> <li> subElement </li> </ul> </li>
+
+      Tables
++)<table bgcolor="black" width="700"> <tr bgcolor="grey" align="center"> <th width="100"> monday </th> </tr> </table> -> td = table data
+
+      Colors
++)<body style="background-color: black;">
++)for rgb -> syle="color:rgb(5,240,232)"> : take these numers from writing google hex color picker
++)or style="color:#12f002" -> also take these hex from hec color picker
+
+      Span and Div
++)span = for changing part of site 
++)<span style ="" > paragraph </span>
+
+      Metadata
++)!we are puting metadata at head not in body 
++)<meta name="description" content="this is just random text and description is example name ">
++)<meta name="viewport" content="width=device-width , initial-scale=1.0"> -> this set site to any device 
++)<meta http-equiv="refresh" content="30" > -> this will refresh site every 30 second 
+
+      iframes
++)its for embed content from another source 
++)<iframe src="https://www.bing.com">  -> not all sites enable iframes and embeding 
+
+      Buttons
++)<button> click </button>
++)for disabling it -> <button disabled> click me </button>
++)for connecting it with functions -> <button onclick="doSomething()" </button>
+<script> function doSomething(){document.getElementById("test").innerHTML ="goodbye} -> no need to write function inside html file use another js file 
+
+      Forms
++)<form> <label for="fname">first name : </label>
+<input type="text" id="fname" name="fname" placeholder="randomThing" required> -> required optional  
+</form>
++)type="reset" 
++)type="submit" -> for sending this data to somewhere : <form action="action_page.php" method="POST"> using GET is dangerous for securith it show info on upper bar 
++)type="password" id="pass" name="pass" maxlength="20"
++)type ="email" id="email" name="email" placeholder="random@gmail.com" 
++)type="tel" id="phone" name="phone"
++)type ="date" id="bdate"
++)type="number" id="quantity"
++)<label> option 1 </label>
+<input type="radio" name="title" value="mr.">
++)<select id="payment" name="payment">
+<option value="visa"> visa</option> 
++)<input type="checkbox" id="check" name="check">

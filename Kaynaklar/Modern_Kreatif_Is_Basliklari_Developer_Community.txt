@@ -1,0 +1,48 @@
+Grafik Tasarımci :Tipografi (Yazi tasarimi),renk,şekil,fotoğraf gibi cesitli ogeler ile fikirleri gorsel iletisim ogelerine çevirme yetkinliğine sahip kişidir.
+Adobe® Creative Suite ( Yetenek setine dahil ihtiyaclari tanim kisminda belirttigimden tekrar gerekli yetkinliklere eklemedim)
+Grafik tasarim basligi altinda asagidaki is unvanlarını da barindirir.
+  -Marka Tasarimi 
+ - Baski Tasarimi
+ - Yayin Tasarimi
+ -  Animasyon Tasarimi
+
+Bilgi Tasarımcısı : Analitik bir yaklaşıma sahip hikaye anlatıcıları olarak özetlenebilir.Sayisal veriyi görselleştirerek sunarlar.
+
+	Gerekli Yetkinlikler;Adobe Creative Suite,Excel
+
+ 
+Deneysel Tasarımcı : Fiziksel bir ortamin mesaji/hissi uzerine calisan tasarimcilardir.Mimarlarla ortakliklari sikca görülmekte.Grafik tasarımcı kriterlerine sahip olmakla birlikte problem cozme,insan psikolojisini anlamlandirma yetkinliklerine sahiptir.Sergi,kampanya gibi mekansal etkinliklerin deneyim haline cevirilmesinden sorumludurlar.
+	
+	Gerekli Yetkinlikler;Adobe Creative Suite
+
+
+Etkileşim Tasarımcısı (IxD) : Ürün,cevre,sistem veya servis ile kullanici arasindaki etkilesimi kelime,gorsel elementler,objeler,devinim,ses ve boşluk gibi öğelerle teknoloji aracılığında guclendiren kisidir.
+
+Gerekli Yetkinlikler : Adobe Creative Suite,UX akis  semasi,JavaScript
+
+
+Kullanıcı Deneyimi (UX) Tasarımcısı : Kullanıcının ürün hizmet veya ortam ile olan hem dijital hem fiziksel deneyiminden sorumludur.Arastirma,strateji,gelistirme ve tasarim yetkinliklerini bunyesinde bulunduran kisilerdir.Tasarladıkları arayüzün kolay anlasilir ,estetik ve sezgisel olmasi en temel oncelikleridir.Bir Kullanıcı Deneyimi Tasarimcisinin ayni zamanda Etkileşim Tasarımcısı olarak calistigi gorulmemis sey degildir aksine gayet yaygin bir durum.
+
+Gerekli Yetkinlikler : UX akis semasi,prototipleme,Adobe Creative Suite
+
+Kullanıcı Arayüzü (UI) Tasarımcısı :  Kullanıcı Deneyimi Tasarimcisi ve Etkileşim Tasarımcısindan aldigi arastirma sonuclarini kullanarak kullanici arayuzunu tasarlamaktan sorumlu kisidir.Web sitesi semasi,prototipleme ve test etme islerinin buyuk bir kismini olusturur.Butonlar,menüler,renk paletleri,görseller,fontlar gibi ekran uzerindeki tum ogeleri kullaniciya en anlamli bicimde sunarlar.
+
+Gerekli Yetkinlikler : Adobe Creative Suite,UX akis  semasi,JavaScript
+
+Web Tasarımcısı : Musterinin istekleri dorultusunda anlasilir,fonksiyonel ve estetik web siteleri yaratmaktan sorumludurar.Gelistiricilerle ortak calisirlar.Ana sorumluluklari yapi,kullanislilik ve gorsel sunumdur bu aracilikta renk ve fontlarla yakindan calisirlar.
+	Gerekli Yetkinlikler ;HTML, Cascading Style Sheets (CSS), JavaScript (agirlikli olarak bu diller talep ediliyor)
+
+Oyun Tasarımcısı : Bir oyuna ait duzen,kod,hikaye,cevre,karakterler,sesler butununun bir araya getirilerek anlam kazandirilmasindan sorumludur.Hedef kitlelerini iyi tanimalilardir ki oyuncunun navigasyon,etkilesim,sezgisel tercihlerini baz alarak bir seruven tasarlayabilsinler.
+
+Gerekli yetkinlikler :Maya, ZBrush, Nuke, Unreal Engine, augmented reality (AR), virtual reality (VR), 3D audio,LED wall
+
+ayrica kreatif isler olarak asagidaki basliklar da yaygin olarak tercih ediliyor.Is tanimlari ve icerikleri daha geleneksel oldugu icin herhangi bir aciklama eklemedim.
+	-Tasarim Muhendisi 
+- Tasarim Yonetmeni 
+- Sanat Yönetmeni  
+- Yaratici Yonetmen 
+- Fotografci
+- Moda Tasarımcısı 
+	- Mimari Tasarımcı
+- Endustriyel Tasarim 
+ 

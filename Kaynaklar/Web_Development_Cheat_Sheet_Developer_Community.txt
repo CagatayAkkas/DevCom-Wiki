@@ -1,0 +1,526 @@
+Author : Cagatay Akkas
+
+Base:
+yarn init
+yarn add --dev express
+yarn add --dev body-parser
+yarn add --dev nodemon
+yarn add --dev ejs -> for using ejs open a views folder
+
+const express = require("express");
+const bodyParser = require("body-parser");
+const request = require("request");
+
+const app = express();
+app.use("view engine", "ejs");
+
+app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", function (request, response) {
+  // -> this is the homepage
+  response.send("hello");
+});
+app.listen(3000, function () {
+  console.log("world");
+});
+
+
+
+            Basics
++)client -> ISP (internet service provider) -> DNS (Domain System)
+
+
+            HTML
++)<h1> hello world </h1> when we increase the number it becomes smaller max is 6
++)<br> line break
++)<hr size = "x"> horizontal line , hr also self closing 
++)<center> </center> 
++)<!-- random comment --> this is for comment 
++)<!DODCTYPE html> -> we need to put this in first line 
++)<html lang="eng"> </html> -> we put our code here  
++)<head> 
+<meta charset ="UTF-8"> 
+<title> name </title>
+</head> -> user dont see here its for metadata 
++)<body> </body> code goes here 
++)<p> </p> for paragraph
++)For making lists 
+<ul>
+      <li> Job done </li>
+      <li> Another job done </li>
+    </ul> -> u for unordered , <ol> -> ordered list ,
++)<img src="x.png" alt="photo of x"> -> for putting image , for getting url (optional) use photobucket
++)<a href="address" >Click on me to go address </a> -> hyperlink
++)Table 
+<table>
+ <tr> -> table row
+   <td> -> table data 
+	this is a data 
+   </td>
+  </tr>
+ </table>
++)<thead> </thead> 
++)<th> </th> -> table header
++)<textarea name="name" rows="10" cols="10"> </textarea>
++)<form class="" action="mailto:cagatay@mail.com" method="post"> </form>
++)<div> </div> -> groups elements  
+
+            CSS
++)<body style="background-color: blue;"> or #hexcode
++)Inner Css
+<head>
+    <style>
+        body {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+      External css
++)Open folder named css and make a styles.css file 
++)in index in <html> <link rel="stylesheet" href="css/styles.css">
++)selector{type : value;} -> h1{color:blue;}
++)for using selector for classes:
+.classname{}
++)for using id
+#idname{}
+      Psuedo classes
++)classname:hover{} -> hover means when we put our mouse on it
++)Favicon
+<link rel="icon" href="favicon-32x32.png" />
++)<span class="pro">pro </span>grammer.</p> -> with span (it takes part of it and we can modify it in style.css 
++)spans , images and anchors are inline elements (which covers just enough area on screen)
++)display: inline-block is like combining span and blocks (just takes enough are on screen also we can modify width ect.)
++)display:none -> makes it disappear
++)visibility:hidden
++)when we type left(with position relative):30px; it put that space to left so element goes to right
++)position:relative -> we can change directly without changing any other thing
++)position: absolute -> right:30px -> goes right because it postion itself to parent
++)margin -> space between element and frame 
++)position:fixed; -> even you scroll it stays there
++)text-align:center; -> centers text if high is 0
++)margin : 0 auto -> horizontaly center the element to container
++)font-family: sans-serif / serif...
++)also we can font-family:verdana,sans-serif; -> if browser does not has verdana then use sans-serif
+check which font used from cssfontstack.com
++)if we want all users must use same font 
+copy paste info from fonts.google.com
++)For free icons : flaticon.com
++)For free gifs : giphy.com
++)font-size:90px; or x%;
++)16px = 100% = 1em
++)em can scale with font size px cant 
++)!!use rem -> this dictate an element to its root font size 
++)css button generator is useful 
++)navigation bar -> class="navbar"
++)wireframe -> draw show before making site
++)patterns.com -> can get idea for what you do
++)dribble.com -> can get idead from here
++)class="col-lg-3 cal-md-4 col-sm-6" -> this changes the coulumn number with the size of the screen
++)class="container" -> this gives us area which automatically responsive 
++)container-fluid -> this adept and takes 100 percent of the screen
++)fontawesome.com -> good site for symbols/logos , we need to add to our site for using it
++)#fff is white and #111 is black
++)for using grid we need to make div with class="row"
++)border-radius: 100% makes it circle
++)carausel -> we can make auto slides with this 
++)aria-hidden="true" -> this makes the voice reader to not read this element
++)cards
++)bootsnip -> we can take html css examples from this site
++)mobile friendly test from google -> check your site with this site
++)css queries -> @media <type> <feature> -> @media (max-width: 900px) -> means if our screen goes under 900px this runs
++)if we want more condition we can use and and type () and ()
++)wet -> we love typing 
+
+              Web Desing
+      Colour theory
++)color wheel
++)typography -> serif family -> serious and older 
++)sans-serif -> sensible simple straightforward . Startups generally use this 
++)script -> personal imaginative elegant
++)display -> friendly loud amusing 
++)modern -> stylish chic smart 
+ 
+            Bootstrap
++)Responsive = Adept with different devices 
++)codeply.com -> we can train botstrap here 
++)<button class="btn btn-primary"> </button> -> this change the button shape + it add hover
++)btn-dark / btn-outline-dark -> we can add this kind of extra future
++)
+
+           JavaScript
++)taking input from user -> var answer = prompt("what is your name")
++)for string adding -> "Cagatay" + "Silverwind"
++)ctrl + l -> clears the console
++)x.length -> will give length of it
++)name.slice(0,1) -> return elements between 0-1 including 0 and not including 1
++)name.toUpperCase() 
++)name.toLowerCase()
++)x++ and x-- is available
++)!!! y = x++ -> here y becomes x before x increases
++)random number -> Math.random();
++)For getting number between 0-5
+x = Math.random()
+Math.floor(n*6)
+or simple -> Math.floor(Math.random() * 6)
++)== means if they has same value "1" and 1 same but "1" 2 is not
++)=== both values and types need to be same
+
+            Dom
++)<body onload="alert('hello world')> </body>
++)<script type="text/javascript">
+alert("hello world")
+</script>
++)also <script src="index.js" charset="utf-8">
++)we generally put script line at the last = site becomes faster and we need to use variables we decleared
++)for changing elements
+inside JavaScript file
+document.querySelector("h1").innerHTML = "Good Bye";
++)getElementsByTagName()
++)getElementsByClassName()
++)getElementById()
++)document.querySelector("li a") -> here <li class><a>"google.com"</a></li> 
++)document.querySelectorAll -> for taking multiple elements
++)we can change visuals with js -> document.querySelector("button").style.backgroundColor="yellow";
++).add
++).remove
++).toggle ->turns true to false or false to true
++)for only changing text content instead of innerHTML use .textContent
++)for getting specific attribute -> document.querySelector.("a").getAttribute("href");
++)for changing it setAttribute("href" , "google.com")
+
+            Event Listeners
+document.querySelector('button').addEventListener('click', handleClick)
+
+function handleClick() {
+    alert('I got clicked!')
+}
+
++)with anonymous functions(function without a name)
+document.querySelector("button").addEventListener("click",fuction(){alert("I got clicked!");});
++)in browser for debuggin we can use 
+debugger;
+functionName();
++)Higher order functions = functions which can take other functions as an input
++)for using sounds
+var audio = new Audio("path");
+audio.play();
++)! in JavaScript contructor functions(function which initialize object) start with bigger letter  
++)for listening key press
+addEventListener("keypress",function(){
+alert("hello world")
+}
+
+            JQuery
++)document.querySelector("h1") -> JQuery("h1") -> $("h1")
++)minifier.org -> minifies our code 
++) $("h1").addClass("big-title") -> we can select classes like this 
++)for changing text -> .text("hello")
++)we can also change html with .text
++)for changing attribute -> .attr("src" , "http...") -> here if we give one parameter it will return it and if we give two variables it will take first and put the second parameter as info 
++)for adding event listener .click(function(){})
++)for key press event -> .keypress(function(event){})
++).on("mouseover" , function(){}) -> when we apply on the selected element
++)with before() after() prepend() and append() we can put our elements to selected places 
++).remove() removes selected element
++)show() , hide() and toggle() can change visibility 
++)slideUp() , slideDown() , slideToggle() we can change position with effect
++)animate({margin:"20½"})
+
+            Node.js
++)pwd shows our current directory 
++)Repl -> read evaluation print loop 
++)const fs = require("fs")
++)with writing //jshint esversion:6 we can stop errors of es6
++)for copying file -> fs.copyFileSync("file1.txt" , "file2.txt") it will copy 1 to 2
+
+            Express.js
++)yarn add --dev express
++)we are using browser at http://localhost:3000/
++)Mini example
+const express = require("express");
+
+const app = express();
+
+app.get("/", function (request, response) { // -> this is the homepage
+  response.send("hello");
+});
+app.listen(3000, function () {
+  console.log("world");
+});
++)nodemon gives us utility to monitor server real time 
++)yarn add --dev nodemon
++)for using -> yarn node fileName.js
++)for sending a file -> res.sendFile(__dirname + "index.html")
++)yarn add --dev body-parser  -> parse the information we send 
++)const bodyparser = require("body-parser")
++)app.use(bodyParser.urlencoded({extended:true})
++)for sending something after a interaction app.post("/",function(req , res){console.log("thanks for interaction")})
++)for this interaction in html file -> <form (example) action="/" method="post">
+
+            API
++)parameters generally go to the end of url with ? sign 
++)if we have more than one parameter we are using &
++)json = javascript object notation
++)use postman to get data with api from sites
++)getting information from server
+const express = require("express");
+const https = require("https");
+
+const app = express();
+
+app.get('/', function (request, response) {
+    const url = 'api address'
+    https.get(url, function (response) {
+        console.log(response.statusCode)
+        response.on('data', function (data) {
+            const weatherData = JSON.parse(data)
+            console.log(weatherData)
+        })
+    })
+    response.send('herkese selamlar')
+})
+app.listen(3000, function () {
+    console.log('server is running')
+})
+
+
++)! we can only send data to website from back 1 times that why before sending we use write x.write() , x.send()
++)yarn add --dev body-parser
+const bodyParser = require("body-parser")
+ap p.use(bodyParser.urlencoded({extended:true})
+            The code we always use 
+
+const express = require("express");
+const bodyParser = require("body-parser");
+const request = require("request");
+
+const app = express();
+app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: true }));
+
++)get mail server from mailchimp.com
++)we are deploying to server with heroku
+
+            EJS(Embedded JavaScript Templating)
++)Example app.js
+
+const express = require("express")
+const bodyParser = require("body-parser")
+
+const app = express()
+var items = []
+// app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: true }))
+app.set("view engine", "ejs")
+
+app.get("/", function (req, res) {
+    var today = new Date()
+    var options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+    }
+
+    var day = today.toLocaleDateString("tr-TR", options)
+    res.render("list", { kindofday: day, newListItems: items })
+})
+
+app.post("/", function (req, res) {
+    var item = req.body.newItem
+    items.push(item)
+    res.redirect("/")
+})
+
+app.listen(3000, function () {
+    console.log("world")
+})
+
+
+
++)Example list.ejs -> this is under views folder
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>To do List</title>
+    </head>
+
+    <body>
+        <h1><%= kindofday %></h1>
+
+        <ul>
+            <li>kod yaz</li>
+            <li>uyu XD</li>
+
+          <%  for (var i =0 ; i<newListItems.length ; i++){ %>
+                <li> <%= newListItems[i] %> </li>
+            <%} %>
+        </ul>
+
+        <form action="/" method="post">
+            <input type="text" name="newItem" id="" />
+            <button type="submit" name="button">Add</button>
+        </form>
+    </body>
+</html>
+
+
+            Layout
++) <%= include("header") -%> this will import css from other file which export
+
+            Export
++)const name = require(__dirname + "/fileName.js");
++)exports.funcx = funcx
+
+           MongoDB
++)for starting server from cmd use -> mongod
++)for interacting open new cmd and type -> mongo
++)show dbs -> shows the databases
++)for making new db -> use name
++)for adding new elements -> db.products.insertOne({id:1 , name: "cagatay"})
++)for seeing collections -> show collections
++)for finding inside collections -> db.collectionName.find()
++)if we want to find even more specific inside .find(name:"cagatay")
++)for updating -> updateOne({_id:1,} {$set:{stock:32}})
++)for deleting -> .deleteOne({_id:1})
++)for inserting -> .insertOne({_id:2 , name: "Pencil" , ect.})
++)for downloading mongodb to project -> yarn add --dev mongodb
++)for deleting database -> use nameOfDB -> db.dropDatabase()
++)quickstart code
+const MongoClient = require('mongodb').MongoClient;
+const assert = require('assert');
+
+// Connection URL
+const url = 'mongodb://localhost:27017';
+
+// Database Name
+const dbName = 'myproject';
+
+// Create a new MongoClient
+const client = new MongoClient(url,{useNewUrlParser:true});
+
+// Use connect method to connect to the Server
+client.connect(function(err) {
+  assert.equal(null, err);
+  console.log("Connected successfully to server");
+
+  const db = client.db(dbName);
+
+  client.close();
+});
+            Mongoose
++)yarn add --dev mongoose 
++)quickstart
+// getting-started.js
+const mongoose = require("mongoose");
+
+mongoose.connect("mongodb://127.0.0.1:27017/addressesDB", {
+  useNewUrlParser: true,
+});
+
+const addressSchema = new mongoose.Schema({
+  userAddress: String,
+  price: Number,
+});
+
+const Db = mongoose.model("address", addressSchema);
+const db = new Db({
+  userAddress: "0x7EFd0B777026A9c42757d92A3f79361467372435",
+  price: 3,
+});
+db.save();
+
+
++)for adding bulk -> name.insertMany([name1 ,...],function(err){
+if(err){console.log(err)}
+else{console.log("successfully saved")}
+})
++)validation -> const variableName = new mongoose.Schema({name:String , rating:{type:number , min:1, max:10}, review:String})
++)with validetors we can check is the input is met our conditions otherwise we not changing that variable ( it returns error) 
++)for updating .updateOne()
++)for deleting .deleteOne()
++).deleteMany()
+  
+            Restful API
++)Get -> post -> put/patch -> delete
++)these are for read -> make-> update (put deletes old put new , patch change current ) ->delete
++)for making server always 
+new directory wiki-apı
+install body-parser , mangoose , ejs and express
+make app.js
+in app.js write server code
+setup mongoDB
+db name wikiDB
+collection name is articles 
+document has 2 fields : title and content
++)for code ect. -> https://github.com/londonappbrewery/Build-Your-Own-RESTful-API
+
+            React.js
++)codesandbox.io -> for practicing online 
++)when using ract we are starting function and variable names with capital letter
+yarn create react-app my-app
+cd my-app
+yarn start
+
+
+            JSX
++)simple start
+import React from "react";
+import ReactDom from "react-dom";
+
+const name = "cagatay";
+ReactDom.render(<h1> hellos {name} </h1>, document.getElementById("root"));
+
++)for using html elements inside jsx file we use js like variable names and key words -> html: contenteditable , jsx : contentEditable / class -> className 
++)for random picutre -> loram picsum website 
++)for adding inline css -> style = {color:"red"}
++)we can also use custom functions 
+function hellos(){
+return <h1> hellos world </h1>
+ReactDom.render(<hellos> </hellos> ) -> instead of this we can just write <hellos />
+
++)for this we can also use functionNam.jsx file and use it 
+exort default nameFunction;
+in our file -> import nameFunction from ""
++)we generally only call <app /> in main file and divide each function generally and gather them in app.jsx
++)for exporting more than one thing or another than default 
+export default pi ;
+export {double , triple}
+in our file -> import pi , {double , triple}
+import * as pi from "path" -> this will return object which is lkist of all exports from path
++)for starting react project
+yarn create-react-app my-app -> if you use this it will make my app folder in desktop be carefull ! this takes long time 
+yarn start
++)for sending parameter to function -> <nameOfFunction parameter1 = x />
++)we have lots of array and want to use each one in frontend no need to write array[0].name
+function makeName(contact){
+return <Card 
+key = {contact.id} !!! -> we need key 
+name={contact.name} />;
+}
+
+inside our app function
+{contacts.map(makeName)}
++)using map better
+const newNumbers = numbers.map(function (x) {return x*2});
+
++)using filters -> numbers.filter(function (x) {return x<10}); -> this will only return if x is smaller than 10
++)we can also use numbers.reduce
++)also numbers.find -> returns the first element which met condition of return
++)in react && useage -> condition && expression  -> if condition is true expression will happen
++)declereating programming -> ui is dynamic
++)hooks ->gives us chance to change element wihout re rendering everything on screen 
+const [count , setCount] = useState(0) -> useState is a key function for react , setCount also a function which we make when we decleared here
+function increase(){
+setCount(count+1)}
+<button onClick={increase}>
+
+here when we click on the button it will call the increase function and in the function we are calling setCount function and initializing the count at first call and in other calls just increasing it by one
+
++)setInterval(functionName, 1000) this will call functionName every 1000 ms
++)onChange = {functionName} -> exp if used for submit text area any typing will run this 
++)spread operator [a,b,c ... otherArrayName] -> this will add all other array elements into this array 
++)...arrayName -> this will call all elements in this array 
