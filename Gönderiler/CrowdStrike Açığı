@@ -9,10 +9,13 @@ Etkileri Neler:
 
 Neden Oldu:
 +Sıkıntı CrowdStrike siber güvenlik sağlayıcısının getirdiği güncellemedeki kod hatasından dolayı gerçekleşti.
-+CrowdStrike kritik yol (critical path) üzerinde, Kernel (çekirdek) düzeyinde çalışan bir yazılımdı. Bu seviyedeki bir hata sistemi çökertmeye yeterlidir.
++CrowdStrike kritik yol (critical path) üzerinde, Kernel (çekirdek) düzeyinde çalışan bir yazılımdı. Bu seviyedeki bir hata 
+sistemi çökertmeye yeterlidir.
 +Hataya sebep olan Falcon bir EDR(son nokta kontrolü ve cevabı xd) yazılımı.
 +Boot-start olan bu yazılım daha işletim sistemi çalışmaya başlamadan önce ona çalış komutunu veren pakete dahil.
-+Hatalı yüklenen 0 larla dolu dosyadan dolayı makine düzeyinde no pointer reference hatası gerçekleşti. r8 konumuna(dosya adı çok uzun tam lokasyon veremiyoruz) eklenen işaretçinin (pointerın) gösterdiği lokasyonda gerekli veri bulunamıyordu (null döndürdü). Bundan dolayı yükleme gerçekleşmedi.
++Hatalı yüklenen 0 larla dolu dosyadan dolayı makine düzeyinde no pointer reference hatası gerçekleşti. r8 konumuna(dosya adı 
+çok uzun tam lokasyon veremiyoruz) eklenen işaretçinin (pointerın) gösterdiği lokasyonda gerekli veri bulunamıyordu 
+(null döndürdü). Bundan dolayı yükleme gerçekleşmedi.
 
 Nasıl Çözülüyor:
 +Windows’u güvenli veya iyileşme (recovery) modunda çalıştırın.

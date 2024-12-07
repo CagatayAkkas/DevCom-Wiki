@@ -7,14 +7,19 @@ Sorun: 10 kişinin yarıştığı, 8 kişinin %10 1 kişinin %9 ve 1 kişinin de
 
 2)Puanlı sistem.
 Örnek: 5 kişinin yarıştığı senaryoda seçmen, adaylara 5’ten 0 a kadar puan verir.
-Sorun: En güçlü iki adayı düşünün. 5 adaylı senaryoda bunlar 5 veya 4 alacakken 100 kişilik senaryoda 100 veya 99 alacaklar. Yani birebir aynı oyu almalarına rağmen sırf daha fazla aday var diye aralarındaki oran etkilenmiş olacak.
+Sorun: En güçlü iki adayı düşünün. 5 adaylı senaryoda bunlar 5 veya 4 alacakken 100 kişilik senaryoda 100 veya 99 alacaklar. 
+Yani birebir aynı oyu almalarına rağmen sırf daha fazla aday var diye aralarındaki oran etkilenmiş olacak.
 
 3)Sıralamalı sistem.
 Her seçmen, tüm adayları tercih sırasıyla yazar. İlk turda seçim olmazsa en düşük oylu aday elenir ve ilgili seçmenlerin bir sonraki tercihlerine bakılır. Bu, son noktada kazanan oluncaya kadar devam eder.
-Sorun: 3 kişilik senaryoda A %25, B %30, C %38 oy alsın. Kimse %50 yi geçmediği için A elendi ve seçim 2. tura kaldı. Eğer A ile C birbirine zıtsa A’nın seçmenleri ikinci tercih olarak B yi seçeceğinden B kazanmış oldu. Bu senaryoda fikirden ziyade ılımlılık kazanıyor. Yine %25,%30,%38 senaryosunda eğer C bir hata yapıp oyları A’ya kayarsa bu sefer B elenir. B ılımlı olduğu için iki tarafada eşit oy gider. Sonuçta C kazanmış olur. Yani C’nin hata yapması ona fayda sağlamış oldu.
+Sorun: 3 kişilik senaryoda A %25, B %30, C %38 oy alsın. Kimse %50 yi geçmediği için A elendi ve seçim 2. tura kaldı. 
+Eğer A ile C birbirine zıtsa A’nın seçmenleri ikinci tercih olarak B yi seçeceğinden B kazanmış oldu. Bu senaryoda fikirden 
+ziyade ılımlılık kazanıyor. Yine %25,%30,%38 senaryosunda eğer C bir hata yapıp oyları A’ya kayarsa bu sefer B elenir. 
+B ılımlı olduğu için iki tarafada eşit oy gider. Sonuçta C kazanmış olur. Yani C’nin hata yapması ona fayda sağlamış oldu.
 
 4)Mutlak sıralama. Herkes adayları sıralar. Kazanan alır.
-Sorun: Arkadaşlarınızla yemeğe gideceksiniz 3 ihtimal var A,B,C biriniz A>B>C diğerleri de B>C>A ve C>A>B seçti. Son durumda eşitlik oldu ve seçim sonuçsuz kaldı.
+Sorun: Arkadaşlarınızla yemeğe gideceksiniz 3 ihtimal var A,B,C biriniz A>B>C diğerleri de B>C>A ve C>A>B seçti. Son durumda 
+eşitlik oldu ve seçim sonuçsuz kaldı.
 
 Nobel getiren teorem: Her seçim sistemi şu maddeleri sağlamalıdır:
 1)Sonuç, çoğunluğun tercihini yansıtmalı.
@@ -23,6 +28,8 @@ Nobel getiren teorem: Her seçim sistemi şu maddeleri sağlamalıdır:
 4)Sıralama matematiğe uygun olmalı: A, B’ye B’de C’ye üstünse A da C’ye üstün olmalı.
 5)Sabit matematik: A’nın B’ye üstün olduğu senaryoda yeni bir C gelirse A ve B nin birbirine olan üstünlüğü değişmemeli.
 
-Bunların tamamını sağlayamadığımız, Arrow’un imkansızlık teoremiyle sabittir. Siyasetteki tutumların sebebi matematiktir. Sıralamalı senaryoda adaylar ikincil tercihleri alabilmek için birbirine iyi davranırlar. Tekli senaryolarda ise kutuplaşma kâr getirir. Toplumları oynatmak bir formül yazmak kadar basittir. İyi mühendis olun. Dünyayı yönetin =)
+Bunların tamamını sağlayamadığımız, Arrow’un imkansızlık teoremiyle sabittir. Siyasetteki tutumların sebebi matematiktir. 
+Sıralamalı senaryoda adaylar ikincil tercihleri alabilmek için birbirine iyi davranırlar. Tekli senaryolarda ise kutuplaşma 
+kâr getirir. Toplumları oynatmak bir formül yazmak kadar basittir. İyi mühendis olun. Dünyayı yönetin =)
 
 Detaylar (çok kaliteli video): https://www.youtube.com/watch?v=qf7ws2DF-zk

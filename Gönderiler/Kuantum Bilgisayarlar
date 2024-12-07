@@ -17,11 +17,18 @@ Klasik tanım: Normalde bitler 0 ve 1 dir. Ancak kuantum da kübitler hem 0 hem 
 
 Burada olay, parçacıkların kuantum düzeyinde süper pozisyonda olmaları ve ölçülene kadar değelerinin devamlı değişmesidir. Yani?
 
-Bizler birbirine paralel bağlı kübitlerden birine baktığımızda diğerini tahmin edebiliyoruz. Bu da bize manipülasyon imkânı veriyor. Yani tek bir devre yaparak birbirinden farklı ve istediğimiz sonuçları alabiliyoruz. Burada ihtimaller polinomsal artıyor. Örnek: Bilinmeyen X kübiti. Bunu gidip başka bir kübite bağlarsam. İhtimaller: X  X = X^2 olur. Yani normalde 0-1, 0-0, 1-1 ve 1-0 olabilecek sabit 4 ihtimal yerine parametrik ihtimaller üretebiliyoruz. Bu da bize muazzam bir işlem gücü veriyor.
+Bizler birbirine paralel bağlı kübitlerden birine baktığımızda diğerini tahmin edebiliyoruz. Bu da bize manipülasyon imkânı 
+veriyor. Yani tek bir devre yaparak birbirinden farklı ve istediğimiz sonuçları alabiliyoruz. Burada ihtimaller polinomsal artıyor. 
+Örnek: Bilinmeyen X kübiti. Bunu gidip başka bir kübite bağlarsam. İhtimaller: X  X = X^2 olur. 
+Yani normalde 0-1, 0-0, 1-1 ve 1-0 olabilecek sabit 4 ihtimal yerine parametrik ihtimaller üretebiliyoruz. 
+Bu da bize muazzam bir işlem gücü veriyor.
 
 Ne işe yarar ve GTA6 açar mı?
-Kuantum bilgisayarlar matematik tarafında çok iyiler. Korkunç işlem güçleri ile şifreleme algoritmaları başta olmak üzere her ihtimali zorlayarak sistemleri çökertebilir ve simülasyonlar gibi ihtimal üzerinden giden işlerde kullanılabilirler.
+Kuantum bilgisayarlar matematik tarafında çok iyiler. Korkunç işlem güçleri ile şifreleme algoritmaları başta olmak üzere 
+her ihtimali zorlayarak sistemleri çökertebilir ve simülasyonlar gibi ihtimal üzerinden giden işlerde kullanılabilirler.
 
-Zannedilenin aksine GTA6 açamazlar. Çünkü her şey sadece hesaplama gücüne bağlı değildir. Böyle olsa bilgisayarda işlemciden başka parçaya ihtiyaç olmazdı. Ayrıca kuantum bilgisayarlar -273 derecede çalışıyorlar. Yani hem diğer parçaları hem de doğal gaz giderinizi olumsuz etkileyeceklerdir =)
+Zannedilenin aksine GTA6 açamazlar. Çünkü her şey sadece hesaplama gücüne bağlı değildir. Böyle olsa bilgisayarda işlemciden 
+başka parçaya ihtiyaç olmazdı. Ayrıca kuantum bilgisayarlar -273 derecede çalışıyorlar. Yani hem diğer parçaları hem de doğal 
+gaz giderinizi olumsuz etkileyeceklerdir =)
 
 Detaylar: https://www.youtube.com/watch?v=JhHMJCUmq28
