@@ -11,6 +11,9 @@ Katılıma açıktır. İsteyen herkes kendi içeriğini kendi ismi ile eklemek 
 # Linklerimiz
 
 WhatsApp: https://chat.whatsapp.com/HJcp4UJpw2P1kgxrJfCi06
+
 LinkedIn: https://tr.linkedin.com/company/trdevelopercommunity
+
 Discord: https://discord.gg/PreBDJg48r
+
 Medium: https://medium.com/gs-developer-community
