@@ -1,6 +1,6 @@
 ![Banner](https://github.com/CagatayAkkas/DevCom-Wiki/blob/main/BANNER%201080.jpg)
 
-## Developer Community Wiki
+## Developer Community Wiki (Beta)
 
 Topluluğumuzun WhatsApp grubunda her gün paylaştığımız gönderiler ve ürettiğimiz içerikleri içeren repodur.  
 Yıllar içinde çok fazla konuyu ele almamızdan dolayı kendimize referansta bulunma ihtiyacının neticesidir.  
