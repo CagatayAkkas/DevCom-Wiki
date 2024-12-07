@@ -1,9 +1,13 @@
 DevCom Bilgi: BIA (Biyoelektrik İmpedans Analizi)
 
-İşlevi: İstenilen veri miktarına bağlı olarak saniyeler/dakikalar içinde vücudunuzdaki su/yağ/kas oranları, kemik yoğunlu, metabolik yaş ve bazal metabolizma (dinlenme sırasında vücudunuzun harcadığı enerji) vb. verileri kullanıcıya sağlar.
+İşlevi: İstenilen veri miktarına bağlı olarak saniyeler/dakikalar içinde vücudunuzdaki su/yağ/kas oranları, kemik yoğunlu, 
+metabolik yaş ve bazal metabolizma (dinlenme sırasında vücudunuzun harcadığı enerji) vb. verileri kullanıcıya sağlar.
 
-Nasıl Çalışır: Kişi ayaklarını cihazın tabanındaki metal zemine koyar ve ellerine yine metal yüzeye sahip mandallar alır. Vücuda değen bu yüzeyler elektrottur (elektrik yayan maddedir), düşük akıma sahip elektrik sayesinde empedans hesaplanır. (Direnç: Elektronların geçişini engelleyen kuvvetler, Empedans: Yoldaki bileşenlerin akıma karşı gösterdiği eşdeğer direnç.) Vücudumuzdaki farklı tür maddeler farklı türde direnç ve iletkenliğe sahiptir. Cihaz girdi ve çıktı miktarlarına bakarak farklı döngülerde farklı parametreleri hesaplayarak bu değerler üzerinden hesaplama yapar ve sonuçları çıkarır.
+Nasıl Çalışır: Kişi ayaklarını cihazın tabanındaki metal zemine koyar ve ellerine yine metal yüzeye sahip mandallar alır. 
+Vücuda değen bu yüzeyler elektrottur (elektrik yayan maddedir), düşük akıma sahip elektrik sayesinde empedans hesaplanır. 
+(Direnç: Elektronların geçişini engelleyen kuvvetler, Empedans: Yoldaki bileşenlerin akıma karşı gösterdiği eşdeğer direnç.) Vücudumuzdaki farklı tür maddeler farklı türde direnç ve iletkenliğe sahiptir. Cihaz girdi ve çıktı miktarlarına bakarak 
+farklı döngülerde farklı parametreleri hesaplayarak bu değerler üzerinden hesaplama yapar ve sonuçları çıkarır.
 
 Artık spor salonu veya hastanedekilere hava atabilirsiniz =)
- 
+  
 Detaylar: https://www.marsden-weighing.co.uk/blog/body-composition-scale-measurements

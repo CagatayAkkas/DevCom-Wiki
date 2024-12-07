@@ -2,25 +2,37 @@ DevCom Bilgi: Metale elektrik verip matematik yaptırmak (Bilgisayarın tarihi).
 
 Yolculuğumuz insanların matematik işlemlerini zihinden yapamamasıyla başlıyor. Bunu yapmak için bir alet gerekti ve M.Ö. 2700-3k yılında ilk abaküs Çin’de yapıldı.
 
-Ardından 1642 yılında ilk mekanik hesap makinesi geliştirildi. Bu sistemde çarkların çapları ile sayıların büyüklükleri hizalanmış ve döndürme miktarı ile sonuca gidilmiştir. Bu dönemde insanlar matematikçilerin işsiz kalacağından bahsetmeye başlamışlardır XD
+Ardından 1642 yılında ilk mekanik hesap makinesi geliştirildi. Bu sistemde çarkların çapları ile sayıların büyüklükleri hizalanmış
+ ve döndürme miktarı ile sonuca gidilmiştir. Bu dönemde insanlar matematikçilerin işsiz kalacağından bahsetmeye başlamışlardır XD
 
-1660 yılına gelindiğinde yine fiziksel olarak bu sefer de binary sistemini kullanan aletler geliştirildi. Ancak halen ilk 10 rakam (rakamlar [0,9] dur. 10 ve sonrası artık sayıdır.) ile işlem yapılabiliyordu.
+1660 yılına gelindiğinde yine fiziksel olarak bu sefer de binary sistemini kullanan aletler geliştirildi. Ancak halen ilk 10 
+rakam (rakamlar [0,9] dur. 10 ve sonrası artık sayıdır.) ile işlem yapılabiliyordu.
 
-1820’ye gelindiğinde resimde gördüğümüz buhar veya insan gücüyle çalışan tam otomatik sistem geliştirildi. Halen elektrikten eser yoktu ve fiziksel bir mekanizma vardı.
+1820’ye gelindiğinde resimde gördüğümüz buhar veya insan gücüyle çalışan tam otomatik sistem geliştirildi. Halen elektrikten 
+eser yoktu ve fiziksel bir mekanizma vardı.
 
-Aynı dönemde dünyanın ilk programlamacılarından kabul edilen Ada Lovelace döngüler ve veri analizleri hakkında matematiksel formüller çıkardı. (İlgili Medium yazımız: t.ly/BrIia)
-1890’da elektro manyetikle çalışan ancak halen mekanik olan cihaz geliştirildi. Kartlar üzerindeki delikler yardımıyla akımın geçip geçmemesinden veri alınarak sonuca gidiliyordu. Bu icadın satılması için ilerletilen şirket bugünkü IBM’i oluşturdu.
+Aynı dönemde dünyanın ilk programlamacılarından kabul edilen Ada Lovelace döngüler ve veri analizleri hakkında matematiksel 
+formüller çıkardı. (İlgili Medium yazımız: t.ly/BrIia)
+1890’da elektro manyetikle çalışan ancak halen mekanik olan cihaz geliştirildi. Kartlar üzerindeki delikler yardımıyla akımın 
+geçip geçmemesinden veri alınarak sonuca gidiliyordu. Bu icadın satılması için ilerletilen şirket bugünkü IBM’i oluşturdu.
 
 1936-1950 Turing makinesi ve ilk programlanabilir bilgisayar geliştirildi. Bu bilgisayar binary ve boolean mantığını (0-1) kullanıyordu. Evlerde kullanılabilen ilk bilgisayar çıktı. IBM oda kadar bilgisayarlar yaptı. Bu cihazların ağırlığı 5 tonu geçiyordu. İçinde milyondan fazla parça/kablo vardı.  32 bite kadar matematik yapabiliyordu. Girdiler sonsuz sayıda gibi görünen kolların çevirilmesi ile veriliyordu. İlk bilgisayar hatası (bug) bu dönemde bulunup çözüldü.
 
-1937-1942: İlk dijital bilgisayar geliştirildi (ABC). Sistem vakum tüpleri kullanıyordu (katotlar ısıtılarak anota elektron gönderen içinde hava olmayan camlar). Cihazların devasa olmasının sebebi vakum tüpleridir. Ve mühendisler her saat başı biten tüpleri atıp yeni tüpler takıyorlardı. ENIAC (elektrikle çalışan sistem) yine bu dönemde yapıldı.
+1937-1942: İlk dijital bilgisayar geliştirildi (ABC). Sistem vakum tüpleri kullanıyordu (katotlar ısıtılarak anota elektron 
+gönderen içinde hava olmayan camlar). Cihazların devasa olmasının sebebi vakum tüpleridir. Ve mühendisler her saat başı biten tüpleri atıp yeni tüpler takıyorlardı. ENIAC (elektrikle çalışan sistem) yine bu dönemde yapıldı.
 
-1947 transistör sonunda bulundu. İlk sistemler halen 1 ton ağırlığında, oda kadar, aylık 27k dolar masrafla çıkıyordu (5mb hafızaları var.) Donanımda atılım yapıldı.
+1947 transistör sonunda bulundu. İlk sistemler halen 1 ton ağırlığında, oda kadar, aylık 27k dolar masrafla çıkıyordu 
+(5mb hafızaları var.) Donanımda atılım yapıldı.
 
-1949 Assembly kullanılmaya başlandı. Artık tuşlara basıp belirli noktalara gönderilen elektrik sinyalleri ile komutlar makineye aktarılabiliyordu.
+1949 Assembly kullanılmaya başlandı. Artık tuşlara basıp belirli noktalara gönderilen elektrik sinyalleri ile komutlar 
+makineye aktarılabiliyordu.
 
 Bundan sonrasını biliyoruz.
 
-Özet: Assembly’nin 75 yıl önce bulunduğu bir dönemde yaşıyoruz. Yani milyarlarca insan bugünkü deneyimleri 1 nesil ile kaçırdı. O kadar talihliyiz ki binlerce yıllık bu emeğin ekmeğini oturduğumuz yerden yiyoruz. Bugün bilgisayarların yaptıkları daha 100 sene önce hayal bile edilemez, sihir kabul edilebilirdi. Bugün hepimiz bedavadan gelmiş süper güçlere sahibiz. İnsanlık tarihinin seçilmiş insanları olarak büyük gücün büyük sorumluluk getirdiğini bilelim. Eski efsanelerin ömür verip yaptıklarını saniyeler içinde yapabildiğimizi unutmayalım ve her şeyimizle tarih yazalım =)
+Özet: Assembly’nin 75 yıl önce bulunduğu bir dönemde yaşıyoruz. Yani milyarlarca insan bugünkü deneyimleri 1 nesil ile kaçırdı. 
+O kadar talihliyiz ki binlerce yıllık bu emeğin ekmeğini oturduğumuz yerden yiyoruz. Bugün bilgisayarların yaptıkları daha 100 
+sene önce hayal bile edilemez, sihir kabul edilebilirdi. Bugün hepimiz bedavadan gelmiş süper güçlere sahibiz. İnsanlık 
+tarihinin seçilmiş insanları olarak büyük gücün büyük sorumluluk getirdiğini bilelim. Eski efsanelerin ömür verip 
+yaptıklarını saniyeler içinde yapabildiğimizi unutmayalım ve her şeyimizle tarih yazalım =)
 
 Detaylar: https://www.youtube.com/watch?v=-M6lANfzFsM
