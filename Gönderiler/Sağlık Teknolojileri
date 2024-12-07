@@ -2,7 +2,10 @@ DevCom Bilgi: Günlük hayatta duyduğumuz ama ne olduğunu/nasıl çalıştığ
 
 En baştan önemli not: Ultrason ve MR radyasyon yaymazken BT ve röntgen yayar.
 
-MR (Manyetik Rezonans): Vücuttaki su molekülleri üzerine manyetik alan ve radyo dalgaları göndererek çalışır. Güçlü (1.5 - 7 Tesla) bir manyetik alan oluşturulur. Bu alan vücuttaki hidrojen atomlarının çekirdeklerini (protonları) hizalar. Hizalanan protonlara radyo dalgaları gönderilir ve enerjinin emilmesi sağlanır. Radyo dalgaları kesildiğinde protonlar eski hallerine dönerler ve bu sırada enerji yayarlar. Yayılan enerji takip edilerek haritalandırma yapılır.
+MR (Manyetik Rezonans): Vücuttaki su molekülleri üzerine manyetik alan ve radyo dalgaları göndererek çalışır. 
+Güçlü (1.5 - 7 Tesla) bir manyetik alan oluşturulur. Bu alan vücuttaki hidrojen atomlarının çekirdeklerini (protonları) hizalar.
+Hizalanan protonlara radyo dalgaları gönderilir ve enerjinin emilmesi sağlanır. Radyo dalgaları kesildiğinde protonlar 
+eski hallerine dönerler ve bu sırada enerji yayarlar. Yayılan enerji takip edilerek haritalandırma yapılır.
 
 Ultrason: İnsanın duyamayacağı kadar yüksek frekansta (2-18 MHz) ses dalgaları üretilip vücuda gönderilir. Ses dalgalarının dokulara çarpıp geri dönmesi analiz edilerek haritalandırma yapılır. Önden sürülen jel, hava boşluklarının doldurulup ses dalgalarının vücuda daha iyi girmesi içindir.
 

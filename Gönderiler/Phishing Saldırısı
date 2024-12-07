@@ -1,17 +1,23 @@
 DevCom Bilgi: Teknik Sazan Avı (Phishing saldırısı)
 
-Özet Tanım: Güvenilir olduğu düşünülen noktadan gelen kapının (link, dosya vs.) mağdur tarafından açılarak içeriye zararlı yazılımın girmesi veya içerideki verinin çalınmasıdır.
+Özet Tanım: Güvenilir olduğu düşünülen noktadan gelen kapının (link, dosya vs.) mağdur tarafından açılarak içeriye zararlı 
+yazılımın girmesi veya içerideki verinin çalınmasıdır.
 
-Yapılan bir araştırmada (bkz. [1]) açık kaynaklardan edinilen bilgilerle 3661 üniversite öğrencisine phishing saldırısı yapılmış. Sonuçlar korkutucu. Yapılan saldırı tam %10.8’lik bir başarı kaydetmiş. Bu veriler 2020 yılına ait. Günümüzde yapay zeka araçları ile sadece isim girmekle internet üzerindeki tüm veriler süzülüp elde edilebiliyor. Ayrıca açık kaynak veri miktarı da her geçen gün artmakta. Peki günlük hayatta bu saldırılar nasıl karşımıza çıkabilir?
+Yapılan bir araştırmada (bkz. [1]) açık kaynaklardan edinilen bilgilerle 3661 üniversite öğrencisine phishing saldırısı yapılmış.
+Sonuçlar korkutucu. Yapılan saldırı tam %10.8’lik bir başarı kaydetmiş. Bu veriler 2020 yılına ait. 
+Günümüzde yapay zeka araçları ile sadece isim girmekle internet üzerindeki tüm veriler süzülüp elde edilebiliyor. 
+Ayrıca açık kaynak veri miktarı da her geçen gün artmakta. Peki günlük hayatta bu saldırılar nasıl karşımıza çıkabilir?
 
 Sık karşılaşılanlar:
 +Kargo şirketinden haberiniz olmayan bir kargonun takip linkinin SMS olarak gelmesi. (Smishing)
 
-+LinkedIn’de rastgele bir kişiden gelen iş teklifi -> Size indirmenizi söyledikleri dosyayı çalıştırmanız gerektiğini yazıyorlar. Profillerine veya bağlantı sayılarına asla takılmayın.
++LinkedIn’de rastgele bir kişiden gelen iş teklifi -> Size indirmenizi söyledikleri dosyayı çalıştırmanız 
+gerektiğini yazıyorlar. Profillerine veya bağlantı sayılarına asla takılmayın.
 
 +Rastgele QR kodlar (Duvarlar, menüler vs.)
 
-+Halka açık bir alanda ücretsiz Wi-Fi’ye bağlanırken saldırganlar aynı isimde başka bir ağ açarak oraya bağlanmanız halinde bilgilerinizi çalabilir. (Evil Twin)
++Halka açık bir alanda ücretsiz Wi-Fi’ye bağlanırken saldırganlar aynı isimde başka bir ağ açarak oraya bağlanmanız 
+halinde bilgilerinizi çalabilir. (Evil Twin)
 
 +Çekiliş adı altında size gönderilen hediye linkleri.
 
@@ -19,6 +25,8 @@ Sık karşılaşılanlar:
 
 Bir yöntem (eğitim/örnek amaçlı):
 
-+İlgili linki, link kısaltıcı uygulamalarda kısaltarak okunmasını engelleyebilirsiniz. Eğer işiniz garanti olsun istiyorsanız farklı uygulamalarda aynı işi yapın. Bu sayede birbirinden farklı görünen ancak aynı olan linklere sahip olursunuz. Gerisi size kalmış =)
++İlgili linki, link kısaltıcı uygulamalarda kısaltarak okunmasını engelleyebilirsiniz. Eğer işiniz garanti olsun istiyorsanız 
+farklı uygulamalarda aynı işi yapın. Bu sayede birbirinden farklı görünen ancak aynı olan linklere sahip olursunuz. 
+Gerisi size kalmış =)
 
 [1]: https://www.semanticscholar.org/paper/Experimental-Evaluation-of-Phishing-Attack-on-High-Marusenko-Sokolov/191054d2883c242a3023a2f1e8eab38e562c8f78

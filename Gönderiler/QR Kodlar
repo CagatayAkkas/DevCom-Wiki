@@ -2,12 +2,24 @@ DevCom Bilgi: QR (Quick Response) Kodlar.
 
 İnsanlık, tarih boyunca bilgi aktarmaya ihtiyaç duymuştur. Bu durum başlarda dağlardan tüttürülen dumanlarla, atlı habercilerle ve dünyanın öbür ucunda bile olsa dönüp geldiği evi bulan güvercinlerle (acayiptir) olmuştur.
 
-Elektriğin keşfi ile uzaklara veri gönderimi mümkün oldu. Bu ilk başta mors alfabesi ile yapıldı. Harfler, elektriğin tellere vuruluş aralıklarına göre hesaplanıyordu. Bir noktadan sonra katipler, sadece sesinden harfleri çözebilir hale geldiler. Acil durum olarak bildiğimiz SOS’de aslında ses olarak çok rahat anlaşılabildiğinden seçilmiş rastgele bir ifadedir.
+Elektriğin keşfi ile uzaklara veri gönderimi mümkün oldu. Bu ilk başta mors alfabesi ile yapıldı. Harfler, elektriğin 
+tellere vuruluş aralıklarına göre hesaplanıyordu. Bir noktadan sonra katipler, sadece sesinden harfleri çözebilir hale geldiler. 
+Acil durum olarak bildiğimiz SOS’de aslında ses olarak çok rahat anlaşılabildiğinden seçilmiş rastgele bir ifadedir.
 
-Kapitalizm kükremiş, marketler yeni ürünlerle dolup taşmıştı. Kasiyerler ürünleri tek tek geçiriyor, biri baygınlık geçirince diğeri başlıyordu. Mühendisler, ürün verilerini aktarmanın yolunu aradılar ve çözüm olarak mors noktalarını alıp aşağı uzatarak barkodu oluşturdular. Barkodlara ışık verilir ve bu ışığı ne kadar yansıttığına göre mors ifadeleri ve sayılar elde edilir. Haneleri, şirket ve ürünlerin ilgili numaralarını tutar. Son hanesi güvenlik içindir ve barkodun bir hanesi aşınsa bile son sayıya bakılıp tersten matematik ile aşınan nokta telafi edilebilir (iki hanede olmuyor).
+Kapitalizm kükremiş, marketler yeni ürünlerle dolup taşmıştı. Kasiyerler ürünleri tek tek geçiriyor, biri baygınlık geçirince 
+diğeri başlıyordu. Mühendisler, ürün verilerini aktarmanın yolunu aradılar ve çözüm olarak mors noktalarını alıp aşağı 
+uzatarak barkodu oluşturdular. Barkodlara ışık verilir ve bu ışığı ne kadar yansıttığına göre mors ifadeleri ve sayılar elde 
+edilir. Haneleri, şirket ve ürünlerin ilgili numaralarını tutar. Son hanesi güvenlik içindir ve barkodun bir hanesi aşınsa 
+bile son sayıya bakılıp tersten matematik ile aşınan nokta telafi edilebilir (iki hanede olmuyor).
 
-Ancak barkodlar yeterince bilgi içermiyorlardı. Mühendisler birden fazla barkodu üst üste koymayı denediler. Ancak bu da sıkıntılara sebep oldu. 1994’te Japon bir mühendis Go oyunundan esinlenerek bir sistem tasarlamaya karar verdi ve QR kodlar ortaya çıktı. Fabrikanın işlerini hızlandırmak için çıkan bu sistem herkese açıldı ve popülerleşti. Bu kodlara hangi açıdan bakarsak bakalım sembolleri ile ayırt edilebilip 3 kb kadar veriyi tutabiliyorlar. Her bir alan bir basamak ve noktalar oradaki binary sayılardır. Bu sayılar ilgili verinin ASCII değerlerinin binary halleridir. Bu sayede noktalar karakterlere çevrilir ve sonuç elde edilir.
+Ancak barkodlar yeterince bilgi içermiyorlardı. Mühendisler birden fazla barkodu üst üste koymayı denediler. Ancak bu da 
+sıkıntılara sebep oldu. 1994’te Japon bir mühendis Go oyunundan esinlenerek bir sistem tasarlamaya karar verdi ve QR kodlar 
+ortaya çıktı. Fabrikanın işlerini hızlandırmak için çıkan bu sistem herkese açıldı ve popülerleşti. Bu kodlara hangi açıdan 
+bakarsak bakalım sembolleri ile ayırt edilebilip 3 kb kadar veriyi tutabiliyorlar. Her bir alan bir basamak ve noktalar 
+oradaki binary sayılardır. Bu sayılar ilgili verinin ASCII değerlerinin binary halleridir. Bu sayede noktalar karakterlere 
+çevrilir ve sonuç elde edilir.
 
-QR kod dolandırıcılığı her gün artmaktadır. Duvarlara yapıştırılan, menü diye okutulmaya çalışılan linkler yemleme saldırılarına sebep olmaktadır. Her QR’ı okutmayın. Her bulduğunuz USB’yi bilgisayara takmayın =)
+QR kod dolandırıcılığı her gün artmaktadır. Duvarlara yapıştırılan, menü diye okutulmaya çalışılan linkler yemleme 
+saldırılarına sebep olmaktadır. Her QR’ı okutmayın. Her bulduğunuz USB’yi bilgisayara takmayın =)
 
 Detaylar: https://www.youtube.com/watch?v=w5ebcowAJD8
