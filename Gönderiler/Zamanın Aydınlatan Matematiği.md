@@ -1,6 +1,6 @@
 DevCom Bilgi: Zamanın Aydınlatan Matematiği
 
-Her gün sadece **1** saat verilen bir iş, 6 saat uyuyan bir kişi için yılda **net** 18.5 gün götürürken 8 saat uyuyan biri için 
+Her gün sadece **1** saat verilen bir iş, 6 saat uyuyan bir kişi için yılda **net** 18.5 gün götürürken 8 saat uyuyan biri için
 net **20** gün götürüyor. (365/24 = 15(gün) + 5(1/3 uyku) = 20 gün)
 
 Asgari Matematik:
@@ -30,6 +30,6 @@ Toplam: **230** Gün (yılda)
 45dk kişisel işler: 15 gün
 Toplam: **300 Gün** (yılda)
 
-Özetle, nesnel matematikle sabit olarak **yaşadığımızı** sandığımız hayatı aslında yaşamıyoruz. **Ortalama** bir insan, yılda 300 gününü 
-otomatik pilotta geçiriyor. Yapmamız gereken, “Bir günden bir şey olmaz.” demek yerine **her** saatimizin hesabını tutmak. Ömür, ödeme vakti 
+Özetle, nesnel matematikle sabit olarak **yaşadığımızı** sandığımız hayatı aslında yaşamıyoruz. **Ortalama** bir insan, yılda 300 gününü
+otomatik pilotta geçiriyor. Yapmamız gereken, “Bir günden bir şey olmaz.” demek yerine **her** saatimizin hesabını tutmak. Ömür, ödeme vakti
 belli olmayan bir **çek** gibidir. Sermayemizi boşa harcamayalım. Akşamına **unuttuğumuz** değil, biz öldükten sonra bile **hatırlanacak** bir hayat yaşayalım =)
