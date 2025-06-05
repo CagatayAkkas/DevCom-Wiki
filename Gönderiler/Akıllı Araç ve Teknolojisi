@@ -1,0 +1,44 @@
+DevCom Haber/Teori: Akılsız araçlara akıllı teknolojiler.
+
++Ford, araçlarına çevredeki araçları kontrol edip ilgili alandaki hız limitinin üstünde olanları polise otomatik olarak şikayet edecek sistemler eklemeye çalışıyor.
+Detaylar: t.ly/6QDNN
+
+Teori: Hali hazırda modern araçların mahremiyeti hiçe sayarak kullanıcı verilerini topladığını biliyoruz (bkz. t.ly/DG3Ev). 
+Yeni teknolojilerle direksiyon da artık bilgisayarın elinde. Ancak akıllı araçların önündeki en büyük engellerden biri yasal sorunlar:
+
+1)Araçların kaza yapması durumundaki sorumluluklar (sigorta, cezalar vs.).
+
+2)Kullanıcıyı ilgilendiren durumlardaki (alkollü kullanım vs.) sıkıntılar.
+
+Üreticilerin çözüm önerileri: 
+
+1)Sürücü alkol metreye üflemeden araç çalışmasın. -> sürücü yanındaki kişiye üfletebilir.
+
+2)Araç içine kamera koyup yüz taraması ile kullanıcının tanımlı olduğuna emin olalım. -> kişi sürüş sırasında alkol alabilir.
+
+3)Kullanıcının yüz ifadesi ve hareketlerini takip edip ayık olup olmadığını anlayalım. -> sürücünün tek sorumluluğu ayık olmak değil.
+
+4)Hali hazırda izliyoruz. Yüzü dışında hareketlerini de izleyelim. Gidip sıcak çay içip kendini yakmasın veya telefonla uğraşamasın. -> kullanıcı sorunu çözüldü \o/
+
+5)Gelişmiş makineler hata yapmaz. Kazaların kaynakları tahmin edilemez/hatalı insan eylemleri. -> Çözüm: Herkes akıllı araç kullanırsa her şey tahmin edilebilir olur. 
+-> Sorun: Geçiş süreci uzun sürer. İnsanlar akıllı araç kullanmak istemeyebilir.
+
+6)Araçlar akılsız dahi olsa bazı özellikleri akıllanmış olsun. Mesela kapı kilitleri veya konsoldaki bilgisayar. Bu sayede hata yapan insanın tüm sürüş verileri toplanır 
+ve kaza anında tek sorumlu o olur. -> Kaza anındaki sorumluluğu vermek güvenlik riskini azaltmıyor. Olan olmuş.
+
+7)Her araca içeriyi olmasa da dışarıyı izleyen kamera ve takip sistemi yerleştirilsin (Ford’un yaptığı). Bu sayede sorun yaşanmaya başladığı anda 
+(mesela biri hızlı kullanıyor) polis müdahale etsin. -> Manuel birimler sistemin otomasyonuna zarar verip bilinmezliğe sebep olabilir.
+
+8)Araç bilgisayarları aracın mekanik kısmına müdahale edebilsin (Tesla, Mercedes vb. de kısmi var) Bu sayede ilgili alanda hız arttırıldığında frenler otomatik 
+çalışmaya başlasın. İhbar edilen araç/kendini de ihbar edebilir otomatik dursun ve kapıları otomatik kilitlesin. 
+
+9)Hali hazırda sürücünün araca müdahalesi çok azaldı. Otomatik sürüş standart olsun. Üstte sayılan çözümler de kanunla sabitlensin. -> Sorun çözüldü.
+
+Senaryo: X, işine gitmek için hızla arabasına bindi. Kontağı çevirdi. Aracın kamerası çalıştı. X tanımlanan fotoğrafına benzemek için hemen makyajını tazeledi. 
+Motor çalıştı. Bilgisayar ona ayık görünmediğini söyledi. X uykusuz olsa da en iyi gülümsemesini yaparak harika olduğunu söyledi. Sürüş mesafesi hesaplandı. 
+Potansiyel gecikme 30sn idi. X yola çıktı. İlerlerken telefonuna bir bildirim geldi. Ancak araç kendini ihbar etmesin diye ilgili mesajdaki fotoğrafa bakamadı. 
+Yolculuk sırasında bir anda rota yeniden ayarlandı. Bu durum sadece kendi arabası için değil tüm araçlar ve trafik işaretleri için de böyleydi. 
+Acaba ne oldu diye dışarı bakınca bir aracın yolu tıkadığını gördü. Araç kendini kilitlemiş sürücü camı yumrukluyordu. X, aracın yaptığı ihbara baktı. 
+Yüksek sinirle araba kullanmak yasaktı. Araba bu yüzden durmuştu. Kendi aracı şirket otoparkına park etti. Şirket kuralları gereği tüm çalışanlar şirket marşını 
+okumak zorundaydı. X çok yorgun olsa da gülümseyerek marşı okudu ve kapı açıldı. X araçtan çıkarken bilgisayar, markasının sloganını tekrarladı. 
+"Y araçları, özgürlüğe götürür.” =)

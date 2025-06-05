@@ -1,0 +1,22 @@
+DevCom Bilgi: Soğuk demire nasıl veri kazınır? (D.B.D. USB’ler nasıl çalışır ve sıfırlar nasıl kedi fotoğrafı olur?)
+
+Öncelikle temel bir hata ile başlayalım. USB dediğimiz şey aslında bilgisayara taktığımız dikdörtgen demir değil, 
+tutma yerinin içinde bulunan devre kartıdır. 
+
+Bu devre kartının içinde SSD’lerde de kullanılan NAND adını verdiğimiz bellek çipi vardır. Bu çipin içinde de milyarla transistör. 
+Her bir veri için bu transistörlere elektrik basılır ve elektronlara bakılır. Halbuki USB’lerin bataryaları yoktur ve sürekli elektrik alamazlar. 
+Peki bu elektronlar kedi fotoğrafına nasıl dönüşüyor?
+
+Öncelikle bu transistörler yalıtımlı bir yapıdadır. Elektronları hapsederek kendilerini 0 veya 1 konumunda tutarlar. 
+Yani dışarıdan gelecek potansiyel bir elektrik alan USB içindeki verileri silebilir. Filmlerde yapılan da budur. 
+Ayrıca bu sayede bataryaya ihtiyaç duymazlar. Öte yandan bilgisayarlardaki RAM elektrik yokken veri tutamaz.
+
+Dijital olan her şey temelde 0 veya 1’dir. Cihazlar en başta bu verilerin bir kısmını yan yana koyarak geri kalan verinin tipini tespit ederler. 
+Tespitten sonra ise aynen mors kodundaki gibi girdiler anlamlandırılmaya başlar. Eğer ilk baştaki kod (header) resim içinse bu veriler renk için okunurken bir yazı ise aynı veri harfleri seçmek için okunur ve sonuç alınır.
+
+Yani aslında 0 ve 1’ler arasında en önemli olan verinin tipini belirtenlerdir. Bu aynen konuştuğumuz dil gibidir. Aynı kelime farklı dillerde farklı anlamlara gelebilir. 
+Sesi doğru bilgiye çevirmenin yolu ise sesin hangi dile ait olduğunu anlamaktır. 
+
+Yabancıların Türkçe’yi dinlerken ne duyduklarını merak edenler, rastgele bir dosyayı “not defteri (.txt)” formatında açıp cevabı alabilirler =)
+
+Detaylar: https://youtu.be/hy7_XC8hZ5c?feature=shared

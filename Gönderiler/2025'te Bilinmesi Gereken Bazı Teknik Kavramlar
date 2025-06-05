@@ -1,0 +1,33 @@
+DevCom Rehber: Basit ifadelerle, 2025’te herkesin bilmesi gereken teknik terimler. 
+
+Zero Knowledge (ZK): Bir bilginin kendisini sızdırmadan tam doğru olduğunu karşıya matematiksel olarak ispatlamaktır.
+
+AR-VR-XR farkı: AR, arttırılmış gerçekliktir. Var olan dünyayı toptan değiştirmeden dijital içerik ekler. VR, sanal gerçekliktir. Kullanıcıyı tamamen sanal bir ortama alır. 
+XR, genişletilmiş gerçekliktir. Önceki iki terimi birlikte barındırır.
+
+Haptic geri bildirim: Elektronik cihazların dijital çıktıyı fiziksel dünyaya vermesini sağlayan tekniktir. Cihazların titreşimi gibi hisleri içerir.
+
+Blokzincir: Üzerinde gerçekleşen her işlemin herkes tarafından görüldüğü, verinin tek bir nokta değil; sistemdeki her cihazda tutulduğu, 
+güvene gerek olmayan merkeziyetsiz bir veri ağıdır.
+
+Web3: Blokzincir tabanlı internettir. Verilerin aidiyetlerinin kullanıcılara verilmesini sağlar. (Msl. bir oyundaki eşyanız sunucu çökerse gider.
+Ancak zincirdeki eşyalarınız dünya savaşı çıksa sizde kalır.)
+
+Büyük dil modelleri (LLM): Çokça veri ile eğitilmiş, kelimeler arasındaki bağları kurup bilgiyi konuşma tarzında aktarabilen yazılımdır. Yapay zekalarda kullanılır. 
+
+CRISPR-Cas14: DNA üzerinde istenildiği gibi düzenleme yapmak için kullanılır. “Kişiselleştirilmiş Tıp” kavramının temel taşlarındandır. 
+
+NPU: Makine öğrenmesi gerektiren işlemleri çalıştırmaya yarayan bilgisayar donanım birimidir. İşlemci ve ekran kartından ayrıdır.
+
+Artifact: Deep Fake (dijital olarak üretilmiş görüntü) gibi görsel veya bilgisel birimlerdeki hatalardır. Bu durum bazen veriden bazen de direkt görsel olarak 
+tespit edilebilir. 
+
+AGI: Genel yapay zekadır. Bilgiden bilgi üretebilir. Düşünme ve muhakeme yeteneğine sahiptir.
+
+Bulut: Veriler hiçbir zaman “internette” saklanmaz. Her zaman bir donanım üzerindedirler. Bulut, sizi internet aracılığıyla bu donanımı kullanmanızdır.
+
+Nesnelerin interneti (IOT): Cihazların internete bağlanabilir olup birbiri ile veri alışverişi yapmalarıdır. Akıllı cihazlar genelde bu kategoridedir. 
+Özetle veri alıp verebilen nesnelerdir.
+
+Dijital ikiz: Kişinin dijitaldeki karşılığıdır. Biyometrik veri gibi kişisel bilgileri içerir. Uzun vadede kişinin dijital ayak izlerinden gelen veriyle 
+bilinçlendirilmesi beklenmektedir.

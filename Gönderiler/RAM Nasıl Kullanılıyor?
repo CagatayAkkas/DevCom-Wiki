@@ -1,0 +1,31 @@
+DevCom Bilgi: RAM nasıl kullanılıyor?
+
+“Apple bilgisayarlardaki 8GB RAM, diğer bilgisayarlardaki 16GB RAM’e eşittir.”
+-Apple çalışanı.
+
+Öncelikle yanlış bilinen bir duruma dikkat çekmek istiyoruz. Cihazınızın yüksek RAM kullanması bir yetersizliğe işaret etmez. 
+Sistemler uygulamaları hızlandırmak için özellikle bol keseden hafıza dağıtırlar. Bu da fazla kullanıma sebep olur. Benzer bir durum GPU’da da böyledir. 
+
+RAM nedir?
+Bilgisayarların hafızası aynen insandaki gibidir. Ön ve arka bellekleri vardır. Ön bellekteki verilere hızla erişebilirken arkadaki verilere erişmek aynen düşünmek 
+gibi biraz daha zaman alır. RAM bilgisayarın ön belleğidir. 
+
+Açtığınız sekmeler, arkadaki uygulamalar, görmediğiniz ama çalışan işletim sistemi yazılımı gibi işlemlerin tamamı RAM’den bir parça kullanır. 
+Elimizdekinden fazla hafıza talep ettiğimiz zaman ise ön bellekteki veriler ihtiyaca göre değiştirilmeye başlar ve bu da bilgisayarı yavaşlatır. 
+İşte bu noktada bir şeyler daha olur.
+
+1)RAM sıkıştırılması:
+Sistem, az kullanılan verileri sıkıştırarak yeni verilere yer açar. Sıkıştırılmış veriler için ayrı bölgeler vardır ve burada saklanırlar. 
+Bu verilere erişmek için onları açmak (decompress) gerekir. Bu da biraz zaman alır
+
+2)Değiş tokuş işlemi (swapping)
+Hafızamızda sıkıştırmamıza rağmen yer kalmadığında bilgisayarımız SSD yani arka hafızadan destek alır. Veriler burada tutulur ve ihtiyaç anında hızla ön hafızadaki 
+verilerle yer değiştirir. Ancak bu istenen bir durum değildir. Çünkü SSD’ler NAND flash hücrelerinden oluşur ve bunların sınırlı yazma döngüsü vardır. 
+Yani RAM’i yüksek stres altında bırakmak değiş tokuş durumlarında belleğinize zarar verir. 
+
+Yapmamız gereken bilgisayarımızın yavaşladığı anda görev yöneticisi (Win) veya aktivite ekranından (elma) RAM kullanımının ne ölçüde olduğunu görmek. 
+Eğer %100 ise uzun kullanımda donanımımıza sıkıntı çıkarabiliriz.
+
+En çok RAM kullanan uygulamalar ise tarayıcılar ve kullandığımız LLM’lerdir. Bilgisayarınızı kastırarak kullanmayınız =)
+
+Detaylar: https://youtu.be/p3q5zWCw8J4?feature=shared
