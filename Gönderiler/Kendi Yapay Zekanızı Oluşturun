@@ -1,0 +1,27 @@
+DevCom Atölye: Kendi bilgisayarınızda kendi yapay zekanız. Ücret, deneme sürümü, dışarı veri paylaşmak, GPT/Gemini API’ı yok =)
+
+Özellikler:
++Resim yorumlayabiliyor,
++PDF’lerinizi okuyup sorularınızı cevaplayabiliyor,
++Kod Yazabiliyor,
++Muhabbet vs. temel yapay zeka özelliklerine zaten sahip.
++Açık kaynak olduğundan başkalarının özelleştirmelerini “modefiles” kısmından seçip ekleyebiliyorsunuz.
+
+Yapılacaklar:
+0)Ollama’yı indirin (Windows/Linux/Mac: t.ly/Agl8W
+1)Docker indirin ve çalıştırın: t.ly/YBd0V
+2)(Linux ve Windows subsystem Linux kullananlar) terminale:
+```
+sudo systemctl enable —now ollama
+```
+3)(Herkes) Terminale:
+```
+docker run -d -p 3010:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
+4)Tarayıcınızdan http://localhost:3010/ adresine gidin.
+5)Üst kısımdaki model seçeneklerine bakın. Eğer hiçbir şey görünmüyorsa indirdiğiniz ollamayı başlatın.
+6)Ayrıca istediğiniz modeli indirip kullanabilirsiniz. Bitti =)
+
+Not: Normalde 3000 portunda kuruluyor. Ancak biz yazılımcılar orayı genelde kullandığımız için 3010’da çalıştırdık.
+
+Resmi dokümantasyon: t.ly/NjgjA
