@@ -1,0 +1,27 @@
+DevCom Özet: Google I/O 2026
+
+Dünyayı değiştirecek yenilikler açıklandı ve çoğu hakkında daha detaylı gönderi hazırlamaya niyetliyiz. Şimdilik sadece özetliyoruz.
+
+Google Search: 23 Mayıs itibari ile normal arama güncelleniyor. Artık cevaplarınız direkt AI tarafından verilecek. Gösterilen website sayısı büyük ölçüde daraltılacak ve kullanıcının sitelere tıklaması tenfir (tersine teşvik) edilecek.
+
+Google Alışveriş: Google dünyanın en büyük e-ticaret mağazası olmak istiyor. Tüm yapacağınız alışverişleriniz için tek bir global sepet geliyor. Artık hangi siteden bir şey alırsanız alın bu sepete ekleyecek ve en son ödemeleri Google ekosistemi üzerinden yapabileceksiniz. Google bu sayede kendi üzerinden yapılan her alışverişten kâr sağlamak istiyor. Ayrıca bu sepete de yapay zeka eklemişler. Yani mesela aldığınız ürünler birlikte çalışmıyor. Sepet bunu yakalayıp “Eğer niyetin x ise bu y yerine z yi al.” diyebiliyor.
+
+Ajan yönetimi: Artık istediğiniz bir göreve arkada daimi olarak çalışan bir ajan atayabiliyorsunuz. “İstediğim şu ürünün fiyatı düşünce bana bildirim at.” bu ajan bu olduğunda size bildirim atıyor. Bunu nasıl ölçekleyecekler hiçbir fikrimiz yok.
+
+Google Brief: Her sabah gözünüzü açar açmaz yapay zeka ile günlük özetinize bakabiliyorsunuz. İstediğiniz konulardaki bilgiler tek yerden görülebilmiş oluyor.
+
+Gemini 3.1 Pro limitleri: Yeni gelen güncelleme ile birlikte Gemini’a inanılmaz bir limitleme geldi. Önceki aylarda en azından yarım günü rahat çıkarabilen model artık bir saat bile olmadan bitecek şekilde daraltıldı. 
+
+Gemini 3.5 Flash: Google’ın yeni temel yapay zeka sürümü. Etkinlikte bunun 3.1 Pro’dan çok daha iyi bir model olduğu söylense de tadım testlerine (Arena AI) bakıldığında bunun yanlış olduğu görüldü.
+
+Sesli Gözlük: Yapay zeka destekli gözlükleri takarak her an yapay zekayı sesli girdiler üzerinden kullanabiliyorsunuz. Google araçları (satın alımlar, mailler vs. de dahil) erişim sağlanabiliyor.
+
+Gemini for Science: Akademik araştırma ve makale yazımını otomatize eden araç. İstediğiniz konuda ve verdiğiniz tarih aralığındaki her makaleyi otomatik tarıyor, bu tarama sonuçlarından yeni hipotezler üretiyor ve bunları uygulayabilecek laboratuvar ortamında çalıştırıp analiz ediyor. Siz sadece oturup bir yön gösteriyorsunuz o tüm makaleyi hemencecik yazıyor. Sistemler buna adapte olmazsa ülkemizde bir profesör patlaması daha olabilir.
+
+Gemini Spark: Tamamen sizin bilgisayarınızın dışında çalışan (yani komutu verip bilgisayarı kapasanız da o çalışacak) araçları bağlayan araç(?). Verdiğiniz girdi üzerinden hangi Google araçları kullanılacaksa onlardaki ilgili işlemleri yapıyor. “Arkadaşlarla mangal yapacağız…” Arama motorundan alınacaklar liste çıkarıp Sheets ile derleyip hazırlanan sonucu Gmail ile arkadaşlarınıza gönderiyor vb.
+
+Gemini Omni: Her türlü girdi ile her türlü çıktıyı almaya yarayan araç. Sesli girdi verin onu videoya çevirsin. Video verin onun hakkında yazı yazsın vs. Artık yapacağınız iş için modeli ayrı ayrı seçmenize gerek kalmıyor. 
+
+Google Pics: Resimleri çok daha rahat düzenleyebildiğiniz araç.
+
+Tüm etkinlik: https://www.youtube.com/watch?v=wYSncx9zLIU
