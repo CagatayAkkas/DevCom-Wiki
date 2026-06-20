@@ -1,0 +1,14 @@
+20.06.2026
+DevCom Bilgi: Wi-Fi ve Bluetooth (gerçekten) nasıl kapatılır?
+
+Çoğumuz cihazlarımızla aynı odada uyurken veya cebimize/çantamıza koyup yanımızda taşırken Wi-Fi ve Bluetooth’u sağlık önlemi olarak kapatıyoruz. Ancak ayarlardan/üst sekmeden kapatmamız bu bağlantıları gerçekte kapatmıyor. Farkında olmadan verdiğimiz izinlerle aslında cihazımız her an bu ağlarla etkileşime giriyor ve manyetik dalgalar yaymaya devam ediyor. Bu izinlerin iptali için şu adımları izleyebilirsiniz:
+
+Android cihazlar:
+1)Ayarlar -> Bağlantılar -> Diğer bağlantı ayarları -> Yakındaki cihazı taramayı kapat
+2)Ayarlar -> Konum -> Konum servisleri -> Wi-Fi taraması ve Bluetooth taramasını kapat
+(opsiyonel) Ayarlar -> Biyometrik veriler ve güvenlik -> Cihazımı bulu kapat.
+
+IOS cihazlar:
+1)Ayarlar -> Gizlilik ve güvenlik -> Lokasyon servislerini kapat
+2)Ayarlar -> Hücresel (her cihazda yok) -> Wi-Fi yardımını kapat
+3)Ayarlar -> Gizlilik ve güvenlik -> Bluetooth -> Buradan istediklerini kapat.
