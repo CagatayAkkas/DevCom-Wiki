@@ -1,0 +1,15 @@
+27.06.2026
+DevCom Haber/ler: Yapay zeka kısıtlamaları başladı.
+
+Norveç, çocukların temel öğrenme süreçlerini korumak amacıyla yapay zeka araçlarına kademeli kısıtlama getirme kararı aldı. Yaşları 6 ile 13 arasında değişen ilkokul ve ortaokul öğrencileri yapay zeka araçlarını kullanamayacak. [1]
+
+Microsoft, mühendislerinin yoğun düzeyde yapay zeka kullanmasından kaynaklı token maliyetleri nedeniyle karar değişikliğine gitti. Şirket, yazılımcılarına kendi araçları olan GitHub Copilot CLI’a geçmelerini bildirdi. Şirketlerin token maliyetleri artmaya devam ediyor. [2]
+
+Adı açıklanmayan büyük bir şirket, çalışanlarına Claude yapay zeka modelini kullanmaları için lisans dağıttı. Ancak çalışanların hesaplarına herhangi bir kullanım limiti koymayı ihmal ettiğinden ay sonunda 500 milyon dolarlık bir token faturası geldi. Yapay zeka tüketim maliyetleri inanılmayacak noktalara gelmiş durumda. [3]
+
+ABD Ticaret Bakanlığı Anthropic'e ulusal güvenlik gerekçesiyle bir talimat gönderdi ve modellerin (Fable 5 ve Mythos 5) kırılması (jailbreak) ile kötü niyetli kişilerce siber suç işlemede kullanılabilme ihtimalini göstererek kısıtlanmasını emretti. Bu emir sonucunda şirket ilgili modelleri piyasadan çekti. [4]
+
+[1]: https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/
+[2]: https://www.developer-tech.com/news/microsoft-claude-code-github-copilot-cli/
+[3]: https://finance.yahoo.com/sectors/technology/articles/company-blew-500m-claude-ai-173519468.html
+[4]: https://www.anthropic.com/news/fable-mythos-access
