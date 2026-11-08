@@ -1,5 +1,6 @@
 08.11.2026
-[https://github.com/CagatayAkkas/DevCom-Wiki/blob/main/G%C3%B6nderiler/G%C3%B6rseller/Modern%20Cendere%20ve%20Zaman.jpeg]
+
+![](https://github.com/CagatayAkkas/DevCom-Wiki/blob/main/G%C3%B6nderiler/G%C3%B6rseller/Modern%20Cendere%20ve%20Zaman.jpeg)
 
 DevCom Analiz: Modern Cendere ve Zaman
 
